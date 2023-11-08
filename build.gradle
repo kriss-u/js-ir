@@ -1,0 +1,27 @@
+plugins {
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+}
+
+dependencies {
+    implementation "com.ibm.wala:com.ibm.wala.cast.js.rhino:1.5.6"
+    implementation "com.ibm.wala:com.ibm.wala.cast.js:1.5.6"
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClassName = 'org.nullvector.Main'
+}
+

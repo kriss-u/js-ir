@@ -1,0 +1,25 @@
+<Code body of function Ltest.js>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..14]
+    -> BB2
+    -> BB3
+BB2[15..16]
+    -> BB3
+BB3[-1..-2]
+Instructions:
+BB0
+BB1
+0   v1 = new <JavaScriptLoader,LArray>@0     test.js [0->582] (line 1) [1=[arguments]]
+1   v3 = global:global $$undefined           test.js [507->518] (line 29) [3=[a]]
+3   v5 = global:global $$undefined           test.js [519->530] (line 30) [5=[b]]
+5   v7 = global:global $$undefined           test.js [531->545] (line 31) [7=[c]]
+7   v9 = global:global $$undefined           test.js [565->580] (line 34) [9=[d]]
+11   v13 = binaryop(add) v11:#11.0 , v12:#22.0test.js [539->544] (line 31) [13=[c]11=[a]12=[b]]
+13   v14 = binaryop(lt) v13 , v15:#30.0      test.js [551->557] (line 33) [13=[c]]
+14   conditional branch(eq, to iindex=-1) v14,v16:#0test.js [547->582] (line 33)
+BB2
+15   v17 = binaryop(sub) v13 , v18:#20.0     test.js [573->579] (line 34) [17=[d]13=[c]]
+BB3
+
