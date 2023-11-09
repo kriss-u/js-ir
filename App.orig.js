@@ -49,7 +49,7 @@ export default function App() {
       />
       <TouchableOpacity
         style={loading ? styles.buttonDisabled : styles.button}
-        onPress={() => handleSubmit(form)}
+        onPress={handleSubmit}
         disabled={loading}
       >
         <Text>Login</Text>

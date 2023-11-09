@@ -113,9 +113,7 @@ function App() {
       }),
       (0, _jsxRuntime.jsx)(_reactNative.TouchableOpacity, {
         style: loading ? styles.buttonDisabled : styles.button,
-        onPress: function onPress() {
-          return handleSubmit(form);
-        },
+        onPress: handleSubmit,
         disabled: loading,
         children: (0, _jsxRuntime.jsx)(_reactNative.Text, {
           children: 'Login',
