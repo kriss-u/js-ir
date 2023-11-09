@@ -1,0 +1,889 @@
+lexical:fieldName@LApp.js/App/App.js@2684 = 3
+4 = new <JavaScriptLoader,LArray>@1
+8 = global:global Function
+5 = construct 8@3 7 exception:6
+return 5
+4 = new <JavaScriptLoader,LArray>@0
+null
+null
+9 = global:global Object
+check 9
+null
+null
+13 = lexical:e@LApp.js/_objectSpread
+check 13
+null
+null
+16 = global:global Object
+check 16
+null
+null
+20 = lexical:t@LApp.js/_objectSpread
+check 20
+18 = dispatch 17@17 16,20,3 exception:21
+11 = dispatch 10@18 9,13,3,18 exception:22
+4 = new <JavaScriptLoader,LArray>@0
+null
+null
+10 = global:global Object
+check 10
+null
+null
+14 = lexical:e@LApp.js/ownKeys
+check 14
+12 = dispatch 11@9 10,14,3 exception:15
+null
+7 = prototype_values(12)
+5 = getfield < JavaScriptLoader, LRoot, enumerable, <JavaScriptLoader,LRoot> > 7
+return 5
+5 = new <JavaScriptLoader,LArray>@0
+7 = global:global $$undefined
+null
+9 = global:global $$undefined
+null
+11 = global:global $$undefined
+null
+13 = global:global $$undefined
+null
+15 = global:global $$undefined
+null
+17 = neg 4
+conditional branch(eq, to iindex=23) 17,19
+null
+conditional branch(eq, to iindex=20) 3,19
+null
+8 = prototype_values(3)
+22 = getfield < JavaScriptLoader, LRoot, __esModule, <JavaScriptLoader,LRoot> > 8
+null
+goto (from iindex= 19 to iindex = 21)
+null
+null
+goto (from iindex= 22 to iindex = 24)
+null
+conditional branch(eq, to iindex=26) 12,19
+return 3
+25 = binaryop(strict_eq) 26 , 3
+conditional branch(eq, to iindex=30) 25,19
+null
+goto (from iindex= 29 to iindex = 39)
+30 = typeof(3)
+28 = binaryop(ne) 29 , 30
+conditional branch(eq, to iindex=37) 28,19
+34 = typeof(3)
+32 = binaryop(ne) 33 , 34
+null
+goto (from iindex= 36 to iindex = 38)
+null
+null
+conditional branch(eq, to iindex=45) 16,19
+37 = global:global Object
+check 37
+35 = construct 37@42 exception:38
+fieldref 35.39 = 3 = 3
+return 35
+42 = global:global _getRequireWildcardCache
+check 42
+44 = global:global __WALA__int3rnal__global
+40 = invoke 42@48 44,4 exception:45
+null
+null
+conditional branch(eq, to iindex=59) 40,19
+null
+null
+null
+null
+51 = dispatch 50@56 40,3 exception:52
+null
+goto (from iindex= 58 to iindex = 60)
+null
+conditional branch(eq, to iindex=67) 18,19
+null
+null
+null
+null
+56 = dispatch 55@65 40,3 exception:57
+return 56
+59 = global:global Object
+check 59
+58 = construct 59@69 exception:60
+fieldref 58.61 = 26 = 26
+null
+63 = global:global Object
+check 63
+null
+20 = prototype_values(63)
+62 = getfield < JavaScriptLoader, LRoot, defineProperty, <JavaScriptLoader,LRoot> > 20
+conditional branch(eq, to iindex=85) 62,19
+68 = global:global Object
+check 68
+null
+21 = prototype_values(68)
+67 = getfield < JavaScriptLoader, LRoot, getOwnPropertyDescriptor, <JavaScriptLoader,LRoot> > 21
+null
+goto (from iindex= 84 to iindex = 86)
+null
+null
+71 = global:global $$undefined
+null
+null
+75 = a property name of 3
+74 = binaryop(ne) 26 , 75
+conditional branch(eq, to iindex=157) 74,19
+76 = a property name of 3
+null
+77 = binaryop(strict_ne) 39 , 76
+conditional branch(eq, to iindex=112) 77,19
+null
+null
+83 = global:global Object
+check 83
+null
+31 = prototype_values(83)
+82 = getfield < JavaScriptLoader, LRoot, prototype, <JavaScriptLoader,LRoot> > 31
+null
+46 = prototype_values(82)
+81 = getfield < JavaScriptLoader, LRoot, hasOwnProperty, <JavaScriptLoader,LRoot> > 46
+null
+null
+89 = dispatch 88@109 81,3,76 exception:90
+null
+goto (from iindex= 111 to iindex = 113)
+null
+conditional branch(eq, to iindex=156) 47,19
+conditional branch(eq, to iindex=124) 24,19
+null
+null
+94 = global:global Object
+check 94
+null
+null
+95 = dispatch 69@121 94,3,76 exception:96
+null
+goto (from iindex= 123 to iindex = 125)
+null
+null
+null
+conditional branch(eq, to iindex=140) 48,19
+null
+49 = prototype_values(48)
+100 = getfield < JavaScriptLoader, LRoot, get, <JavaScriptLoader,LRoot> > 49
+conditional branch(eq, to iindex=134) 100,19
+null
+goto (from iindex= 133 to iindex = 138)
+null
+53 = prototype_values(48)
+103 = getfield < JavaScriptLoader, LRoot, set, <JavaScriptLoader,LRoot> > 53
+null
+null
+goto (from iindex= 139 to iindex = 141)
+null
+conditional branch(eq, to iindex=151) 65,19
+null
+null
+108 = global:global Object
+check 108
+null
+null
+109 = dispatch 64@148 108,58,76,48 exception:110
+null
+goto (from iindex= 150 to iindex = 156)
+null
+66 = prototype_values(3)
+111 = fieldref 66.76
+fieldref 58.76 = 111 = 111
+null
+goto (from iindex= 156 to iindex = 90)
+fieldref 58.39 = 3 = 3
+null
+conditional branch(eq, to iindex=167) 40,19
+null
+null
+null
+null
+119 = dispatch 104@164 40,3,58 exception:120
+null
+goto (from iindex= 166 to iindex = 168)
+null
+return 58
+3 = new <JavaScriptLoader,LArray>@0
+5 = global:global $$undefined
+null
+7 = global:global $$undefined
+null
+9 = global:global $$undefined
+lexical:form@LApp.js/App = 9
+11 = global:global $$undefined
+lexical:setForm@LApp.js/App = 11
+13 = global:global $$undefined
+null
+15 = global:global $$undefined
+null
+17 = global:global $$undefined
+null
+19 = global:global $$undefined
+lexical:setLoading@LApp.js/App = 19
+21 = global:global $$undefined
+null
+23 = global:global $$undefined
+null
+29 = lexical:_react@LApp.js
+check 29
+null
+6 = prototype_values(29)
+27 = getfield < JavaScriptLoader, LRoot, useState, <JavaScriptLoader,LRoot> > 6
+33 = global:global __WALA__int3rnal__global
+36 = global:global Object
+check 36
+34 = construct 36@29 exception:37
+fieldref 34.38 = 39 = 39
+fieldref 34.40 = 39 = 39
+25 = invoke 27@32 33,34 exception:41
+null
+45 = lexical:_slicedToArray2@LApp.js
+check 45
+null
+8 = prototype_values(45)
+43 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > 8
+48 = global:global __WALA__int3rnal__global
+42 = invoke 43@40 48,25,49 exception:50
+null
+null
+14 = prototype_values(42)
+51 = fieldref 14.26
+lexical:form@LApp.js/App = 51
+null
+16 = prototype_values(42)
+53 = fieldref 16.54
+lexical:setForm@LApp.js/App = 53
+58 = lexical:_react@LApp.js
+check 58
+null
+18 = prototype_values(58)
+57 = getfield < JavaScriptLoader, LRoot, useState, <JavaScriptLoader,LRoot> > 18
+60 = global:global __WALA__int3rnal__global
+56 = invoke 57@56 60,61 exception:62
+null
+65 = lexical:_slicedToArray2@LApp.js
+check 65
+null
+22 = prototype_values(65)
+64 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > 22
+67 = global:global __WALA__int3rnal__global
+63 = invoke 64@64 67,56,49 exception:68
+null
+null
+24 = prototype_values(63)
+69 = fieldref 24.26
+null
+null
+31 = prototype_values(63)
+71 = fieldref 31.54
+lexical:setLoading@LApp.js/App = 71
+75 = lexical:_react@LApp.js
+check 75
+null
+47 = prototype_values(75)
+74 = getfield < JavaScriptLoader, LRoot, useCallback, <JavaScriptLoader,LRoot> > 47
+78 = global:global __WALA__int3rnal__global
+82 = global:global Function
+79 = construct 82@81 81 exception:80
+87 = global:global Array
+check 87
+85 = construct 87@84 exception:88
+73 = invoke 74@85 78,79,85 exception:89
+null
+92 = lexical:_react@LApp.js
+check 92
+null
+52 = prototype_values(92)
+91 = getfield < JavaScriptLoader, LRoot, useCallback, <JavaScriptLoader,LRoot> > 52
+94 = global:global __WALA__int3rnal__global
+98 = global:global Function
+95 = construct 98@94 97 exception:96
+105 = global:global Array
+check 105
+104 = construct 105@97 exception:106
+108 = lexical:form@LApp.js/App
+fieldref 104.107 = 108 = 108
+90 = invoke 91@100 94,95,104 exception:109
+null
+113 = lexical:_jsxRuntime@LApp.js
+check 113
+null
+55 = prototype_values(113)
+111 = getfield < JavaScriptLoader, LRoot, jsxs, <JavaScriptLoader,LRoot> > 55
+116 = global:global __WALA__int3rnal__global
+119 = lexical:_reactNative@LApp.js
+check 119
+null
+59 = prototype_values(119)
+117 = getfield < JavaScriptLoader, LRoot, View, <JavaScriptLoader,LRoot> > 59
+123 = global:global Object
+check 123
+122 = construct 123@115 exception:124
+128 = lexical:styles@LApp.js
+check 128
+null
+66 = prototype_values(128)
+126 = getfield < JavaScriptLoader, LRoot, container, <JavaScriptLoader,LRoot> > 66
+fieldref 122.125 = 126 = 126
+133 = global:global Array
+check 133
+132 = construct 133@124 exception:134
+137 = lexical:_jsxRuntime@LApp.js
+check 137
+null
+70 = prototype_values(137)
+136 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > 70
+140 = global:global __WALA__int3rnal__global
+142 = lexical:_reactNative@LApp.js
+check 142
+null
+72 = prototype_values(142)
+141 = getfield < JavaScriptLoader, LRoot, TextInput, <JavaScriptLoader,LRoot> > 72
+146 = global:global Object
+check 146
+145 = construct 146@138 exception:147
+fieldref 145.148 = 149 = 149
+152 = lexical:form@LApp.js/App
+null
+77 = prototype_values(152)
+151 = getfield < JavaScriptLoader, LRoot, username, <JavaScriptLoader,LRoot> > 77
+fieldref 145.150 = 151 = 151
+155 = lexical:styles@LApp.js
+check 155
+null
+93 = prototype_values(155)
+154 = getfield < JavaScriptLoader, LRoot, textInput, <JavaScriptLoader,LRoot> > 93
+fieldref 145.125 = 154 = 154
+160 = global:global __WALA__int3rnal__global
+159 = invoke 73@152 160,38 exception:161
+fieldref 145.158 = 159 = 159
+135 = invoke 136@154 140,141,145 exception:162
+fieldref 132.107 = 135 = 135
+166 = lexical:_jsxRuntime@LApp.js
+check 166
+null
+115 = prototype_values(166)
+165 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > 115
+168 = global:global __WALA__int3rnal__global
+170 = lexical:_reactNative@LApp.js
+check 170
+null
+121 = prototype_values(170)
+169 = getfield < JavaScriptLoader, LRoot, TextInput, <JavaScriptLoader,LRoot> > 121
+173 = global:global Object
+check 173
+172 = construct 173@169 exception:174
+fieldref 172.148 = 175 = 175
+177 = lexical:form@LApp.js/App
+null
+130 = prototype_values(177)
+176 = getfield < JavaScriptLoader, LRoot, password, <JavaScriptLoader,LRoot> > 130
+fieldref 172.150 = 176 = 176
+180 = lexical:styles@LApp.js
+check 180
+null
+139 = prototype_values(180)
+179 = getfield < JavaScriptLoader, LRoot, textInput, <JavaScriptLoader,LRoot> > 139
+fieldref 172.125 = 179 = 179
+183 = global:global __WALA__int3rnal__global
+182 = invoke 73@183 183,40 exception:184
+fieldref 172.158 = 182 = 182
+fieldref 172.185 = 186 = 186
+164 = invoke 165@186 168,169,172 exception:187
+fieldref 132.163 = 164 = 164
+191 = lexical:_jsxRuntime@LApp.js
+check 191
+null
+144 = prototype_values(191)
+190 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > 144
+193 = global:global __WALA__int3rnal__global
+195 = lexical:_reactNative@LApp.js
+check 195
+null
+153 = prototype_values(195)
+194 = getfield < JavaScriptLoader, LRoot, TouchableOpacity, <JavaScriptLoader,LRoot> > 153
+199 = global:global Object
+check 199
+198 = construct 199@201 exception:200
+conditional branch(eq, to iindex=210) 69,202
+204 = lexical:styles@LApp.js
+check 204
+null
+157 = prototype_values(204)
+203 = getfield < JavaScriptLoader, LRoot, buttonDisabled, <JavaScriptLoader,LRoot> > 157
+null
+goto (from iindex= 209 to iindex = 216)
+208 = lexical:styles@LApp.js
+check 208
+null
+167 = prototype_values(208)
+207 = getfield < JavaScriptLoader, LRoot, button, <JavaScriptLoader,LRoot> > 167
+null
+fieldref 198.125 = 171 = 171
+fieldref 198.211 = 90 = 90
+fieldref 198.212 = 69 = 69
+215 = lexical:_jsxRuntime@LApp.js
+check 215
+null
+178 = prototype_values(215)
+214 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > 178
+217 = global:global __WALA__int3rnal__global
+219 = lexical:_reactNative@LApp.js
+check 219
+null
+181 = prototype_values(219)
+218 = getfield < JavaScriptLoader, LRoot, Text, <JavaScriptLoader,LRoot> > 181
+223 = global:global Object
+check 223
+222 = construct 223@232 exception:224
+fieldref 222.131 = 225 = 225
+213 = invoke 214@234 217,218,222 exception:226
+fieldref 198.131 = 213 = 213
+189 = invoke 190@236 193,194,198 exception:227
+fieldref 132.188 = 189 = 189
+fieldref 122.131 = 132 = 132
+110 = invoke 111@239 116,117,122 exception:228
+return 110
+4 = new <JavaScriptLoader,LArray>@0
+9 = lexical:_defineProperty2@LApp.js
+check 9
+null
+11 = prototype_values(9)
+7 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > 11
+13 = global:global __WALA__int3rnal__global
+15 = lexical:e@LApp.js/_objectSpread
+check 15
+18 = lexical:t@LApp.js/_objectSpread
+check 18
+null
+19 = prototype_values(18)
+16 = fieldref 19.3
+5 = invoke 7@14 13,15,3,16 exception:20
+4 = new <JavaScriptLoader,LArray>@0
+conditional branch(eq, to iindex=6) 3,6
+8 = lexical:t@LApp.js/_getRequireWildcardCache
+check 8
+null
+goto (from iindex= 5 to iindex = 9)
+10 = lexical:r@LApp.js/_getRequireWildcardCache
+check 10
+null
+return 5
+4 = new <JavaScriptLoader,LArray>@0
+6 = global:global $$undefined
+lexical:r@LApp.js/_getRequireWildcardCache = 6
+8 = global:global $$undefined
+lexical:t@LApp.js/_getRequireWildcardCache = 8
+14 = global:global WeakMap
+check 14
+12 = typeof(14)
+10 = binaryop(ne) 11 , 12
+conditional branch(eq, to iindex=11) 10,15
+return 16
+18 = global:global WeakMap
+check 18
+17 = construct 18@13 exception:19
+lexical:r@LApp.js/_getRequireWildcardCache = 17
+21 = global:global WeakMap
+check 21
+20 = construct 21@17 exception:22
+lexical:t@LApp.js/_getRequireWildcardCache = 20
+27 = global:global Function
+24 = construct 27@20 26 exception:25
+global:global _getRequireWildcardCache = 24
+30 = global:global __WALA__int3rnal__global
+23 = invoke 24@23 30,3 exception:31
+return 23
+lexical:e@LApp.js/_objectSpread = 3
+4 = new <JavaScriptLoader,LArray>@1
+6 = global:global $$undefined
+null
+8 = global:global $$undefined
+lexical:t@LApp.js/_objectSpread = 8
+null
+null
+14 = prototype_values(4)
+12 = getfield < JavaScriptLoader, LRoot, length, <JavaScriptLoader,LRoot> > 14
+11 = binaryop(lt) 7 , 12
+conditional branch(eq, to iindex=94) 11,15
+null
+16 = prototype_values(4)
+19 = fieldref 16.7
+17 = binaryop(ne) 18 , 19
+conditional branch(eq, to iindex=22) 17,15
+null
+20 = prototype_values(4)
+21 = fieldref 20.7
+null
+goto (from iindex= 21 to iindex = 26)
+25 = global:global Object
+check 25
+23 = construct 25@24 exception:26
+null
+lexical:t@LApp.js/_objectSpread = 22
+28 = binaryop(rem) 7 , 29
+conditional branch(eq, to iindex=48) 28,15
+null
+null
+34 = global:global ownKeys
+check 34
+36 = global:global __WALA__int3rnal__global
+38 = global:global Object
+check 38
+39 = global:global __WALA__int3rnal__global
+40 = lexical:t@LApp.js/_objectSpread
+37 = invoke 38@38 39,40 exception:41
+42 = neg 43
+32 = invoke 34@40 36,37,42 exception:44
+null
+null
+50 = global:global Function
+47 = construct 50@44 49 exception:48
+46 = dispatch 45@45 32,47 exception:52
+null
+goto (from iindex= 47 to iindex = 90)
+55 = global:global Object
+check 55
+null
+27 = prototype_values(55)
+54 = getfield < JavaScriptLoader, LRoot, getOwnPropertyDescriptors, <JavaScriptLoader,LRoot> > 27
+conditional branch(eq, to iindex=72) 54,15
+null
+null
+60 = global:global Object
+check 60
+null
+null
+63 = lexical:e@LApp.js/_objectSpread
+null
+null
+66 = global:global Object
+check 66
+null
+null
+68 = lexical:t@LApp.js/_objectSpread
+67 = dispatch 56@68 66,68 exception:69
+62 = dispatch 61@69 60,63,67 exception:70
+null
+goto (from iindex= 71 to iindex = 89)
+null
+null
+74 = global:global ownKeys
+check 74
+75 = global:global __WALA__int3rnal__global
+77 = global:global Object
+check 77
+78 = global:global __WALA__int3rnal__global
+79 = lexical:t@LApp.js/_objectSpread
+76 = invoke 77@81 78,79 exception:80
+73 = invoke 74@82 75,76 exception:81
+null
+null
+86 = global:global Function
+83 = construct 86@86 85 exception:84
+82 = dispatch 45@87 73,83 exception:87
+null
+null
+null
+91 = binaryop(add) 7 , 89
+null
+goto (from iindex= 93 to iindex = 7)
+93 = lexical:e@LApp.js/_objectSpread
+return 93
+lexical:resolve@LApp.js/App/App.js@3006/App.js@3115 = 3
+lexical:reject@LApp.js/App/App.js@3006/App.js@3115 = 4
+5 = new <JavaScriptLoader,LArray>@2
+8 = global:global setTimeout
+check 8
+10 = global:global __WALA__int3rnal__global
+14 = global:global Function
+11 = construct 14@7 13 exception:12
+6 = invoke 8@8 10,11,18 exception:19
+4 = new <JavaScriptLoader,LArray>@0
+7 = global:global _objectSpread
+check 7
+9 = global:global __WALA__int3rnal__global
+11 = global:global _objectSpread
+check 11
+12 = global:global __WALA__int3rnal__global
+15 = global:global Object
+check 15
+13 = construct 15@9 exception:16
+10 = invoke 11@10 12,13,3 exception:17
+19 = global:global Object
+check 19
+18 = construct 19@13 exception:20
+25 = lexical:_defineProperty2@LApp.js
+check 25
+null
+27 = prototype_values(25)
+23 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > 27
+28 = global:global __WALA__int3rnal__global
+30 = global:global Object
+check 30
+29 = construct 30@22 exception:31
+33 = lexical:fieldName@LApp.js/App/App.js@2684
+check 33
+35 = lexical:value@LApp.js/App/App.js@2684/App.js@2718
+check 35
+21 = invoke 23@27 28,29,33,35 exception:36
+5 = invoke 7@28 9,10,18,21 exception:37
+return 5
+1 = new <JavaScriptLoader,LArray>@0
+3 = global:global $$undefined
+null
+5 = global:global $$undefined
+lexical:_defineProperty2@LApp.js = 5
+7 = global:global $$undefined
+lexical:_slicedToArray2@LApp.js = 7
+9 = global:global $$undefined
+lexical:_react@LApp.js = 9
+11 = global:global $$undefined
+lexical:_reactNative@LApp.js = 11
+13 = global:global $$undefined
+lexical:_jsxRuntime@LApp.js = 13
+18 = global:global Function
+15 = construct 18@14 17 exception:16
+global:global _getRequireWildcardCache = 15
+23 = global:global Function
+20 = construct 23@17 22 exception:21
+global:global _interopRequireWildcard = 20
+28 = global:global Function
+25 = construct 28@20 27 exception:26
+global:global ownKeys = 25
+33 = global:global Function
+30 = construct 33@23 32 exception:31
+global:global _objectSpread = 30
+38 = global:global Function
+35 = construct 38@26 37 exception:36
+global:global App = 35
+40 = global:global $$undefined
+lexical:styles@LApp.js = 40
+44 = global:global require
+check 44
+46 = global:global __WALA__int3rnal__global
+42 = invoke 44@33 46,47 exception:48
+null
+null
+null
+53 = global:global Object
+check 53
+null
+null
+57 = global:global exports
+check 57
+60 = global:global Object
+check 60
+59 = construct 60@45 exception:61
+fieldref 59.62 = 63 = 63
+55 = dispatch 54@47 53,57,58,59 exception:64
+65 = global:global App
+check 65
+66 = global:global exports
+check 66
+fieldref 66.67 = 65 = 65
+69 = global:global __WALA__int3rnal__global
+71 = global:global require
+check 71
+72 = global:global __WALA__int3rnal__global
+70 = invoke 71@57 72,73 exception:74
+68 = invoke 42@58 69,70 exception:75
+lexical:_defineProperty2@LApp.js = 68
+77 = global:global __WALA__int3rnal__global
+79 = global:global require
+check 79
+80 = global:global __WALA__int3rnal__global
+78 = invoke 79@64 80,81 exception:82
+76 = invoke 42@65 77,78 exception:83
+lexical:_slicedToArray2@LApp.js = 76
+85 = global:global require
+check 85
+86 = global:global __WALA__int3rnal__global
+84 = invoke 85@70 86,87 exception:88
+90 = global:global _interopRequireWildcard
+check 90
+91 = global:global __WALA__int3rnal__global
+93 = global:global require
+check 93
+94 = global:global __WALA__int3rnal__global
+92 = invoke 93@77 94,95 exception:96
+89 = invoke 90@78 91,92 exception:97
+lexical:_react@LApp.js = 89
+99 = global:global require
+check 99
+100 = global:global __WALA__int3rnal__global
+98 = invoke 99@83 100,101 exception:102
+lexical:_reactNative@LApp.js = 98
+104 = global:global require
+check 104
+105 = global:global __WALA__int3rnal__global
+103 = invoke 104@88 105,106 exception:107
+lexical:_jsxRuntime@LApp.js = 103
+null
+null
+111 = lexical:_reactNative@LApp.js
+null
+4 = prototype_values(111)
+110 = getfield < JavaScriptLoader, LRoot, StyleSheet, <JavaScriptLoader,LRoot> > 4
+null
+null
+117 = global:global Object
+check 117
+116 = construct 117@100 exception:118
+121 = global:global Object
+check 121
+120 = construct 121@103 exception:122
+fieldref 120.123 = 124 = 124
+fieldref 120.125 = 126 = 126
+fieldref 120.127 = 128 = 128
+fieldref 120.129 = 130 = 130
+fieldref 120.131 = 130 = 130
+fieldref 116.119 = 120 = 120
+134 = global:global Object
+check 134
+133 = construct 134@112 exception:135
+fieldref 133.136 = 137 = 137
+fieldref 133.138 = 139 = 139
+fieldref 133.140 = 124 = 124
+fieldref 133.141 = 142 = 142
+fieldref 133.143 = 144 = 144
+fieldref 133.145 = 146 = 146
+fieldref 133.147 = 146 = 146
+fieldref 116.132 = 133 = 133
+150 = global:global Object
+check 150
+149 = construct 150@123 exception:151
+fieldref 149.129 = 130 = 130
+fieldref 149.131 = 130 = 130
+fieldref 149.152 = 153 = 153
+fieldref 149.145 = 154 = 154
+fieldref 149.141 = 142 = 142
+fieldref 149.155 = 156 = 156
+fieldref 149.127 = 157 = 157
+fieldref 149.143 = 144 = 144
+fieldref 149.147 = 146 = 146
+fieldref 116.148 = 149 = 149
+160 = global:global Object
+check 160
+159 = construct 160@136 exception:161
+fieldref 159.129 = 130 = 130
+fieldref 159.131 = 130 = 130
+fieldref 159.152 = 153 = 153
+fieldref 159.145 = 154 = 154
+fieldref 159.141 = 142 = 142
+fieldref 159.155 = 156 = 156
+fieldref 159.127 = 162 = 162
+fieldref 159.143 = 144 = 144
+fieldref 159.147 = 146 = 146
+fieldref 116.158 = 159 = 159
+115 = dispatch 114@147 110,116 exception:163
+lexical:styles@LApp.js = 115
+lexical:e@LApp.js/ownKeys = 3
+5 = new <JavaScriptLoader,LArray>@1
+7 = global:global $$undefined
+null
+9 = global:global $$undefined
+null
+null
+null
+15 = global:global Object
+check 15
+null
+null
+18 = lexical:e@LApp.js/ownKeys
+17 = dispatch 16@13 15,18 exception:19
+null
+21 = global:global Object
+check 21
+null
+8 = prototype_values(21)
+20 = getfield < JavaScriptLoader, LRoot, getOwnPropertySymbols, <JavaScriptLoader,LRoot> > 8
+conditional branch(eq, to iindex=51) 20,24
+null
+null
+27 = global:global Object
+check 27
+null
+null
+29 = lexical:e@LApp.js/ownKeys
+28 = dispatch 22@28 27,29 exception:30
+null
+null
+conditional branch(eq, to iindex=42) 4,24
+null
+null
+null
+null
+40 = global:global Function
+37 = construct 40@37 39 exception:38
+36 = dispatch 35@38 28,37 exception:41
+null
+null
+goto (from iindex= 41 to iindex = 43)
+null
+null
+null
+null
+12 = prototype_values(17)
+44 = getfield < JavaScriptLoader, LRoot, push, <JavaScriptLoader,LRoot> > 12
+null
+null
+48 = dispatch 47@50 44,17,10 exception:49
+return 17
+lexical:value@LApp.js/App/App.js@2684/App.js@2718 = 3
+4 = new <JavaScriptLoader,LArray>@1
+7 = lexical:setForm@LApp.js/App
+check 7
+9 = global:global __WALA__int3rnal__global
+13 = global:global Function
+10 = construct 13@6 12 exception:11
+5 = invoke 7@7 9,10 exception:18
+return 5
+3 = new <JavaScriptLoader,LArray>@0
+6 = lexical:resolve@LApp.js/App/App.js@3006/App.js@3115
+check 6
+8 = global:global __WALA__int3rnal__global
+4 = invoke 6@4 8,9 exception:10
+null
+null
+17 = global:global Math
+check 17
+null
+null
+19 = dispatch 18@11 17 exception:20
+12 = binaryop(mul) 19 , 21
+11 = binaryop(lt) 12 , 22
+conditional branch(eq, to iindex=22) 11,23
+26 = lexical:reject@LApp.js/App/App.js@3006/App.js@3115
+check 26
+27 = global:global __WALA__int3rnal__global
+30 = global:global Error
+check 30
+28 = construct 30@20 31 exception:32
+24 = invoke 26@21 27,28 exception:33
+36 = lexical:setLoading@LApp.js/App
+check 36
+37 = global:global __WALA__int3rnal__global
+34 = invoke 36@25 37,38 exception:39
+3 = new <JavaScriptLoader,LArray>@0
+null
+null
+8 = global:global console
+check 8
+null
+null
+13 = lexical:form@LApp.js/App
+check 13
+10 = dispatch 9@9 8,11,13 exception:14
+17 = lexical:setLoading@LApp.js/App
+check 17
+19 = global:global __WALA__int3rnal__global
+15 = invoke 17@13 19,20 exception:21
+24 = global:global Promise
+check 24
+28 = global:global Function
+25 = construct 28@17 27 exception:26
+22 = construct 24@18 25 exception:32
+return 22
