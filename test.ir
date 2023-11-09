@@ -1,25 +1,117 @@
+<Code body of function Ltest.js/sum/test.js@398>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..4]
+    -> BB2
+BB2[-1..-2]
+Instructions:
+BB0
+BB1
+0   v5 = new <JavaScriptLoader,LArray>@0     test.js [398->461] (line 25) [5=[arguments]]
+2   v7 = binaryop(add) v3 , v4               test.js [426->434] (line 26) [7=[acc]3=[acc]4=[i]]
+4   return v7                                test.js [444->455] (line 27) [7=[acc]]
+BB2
+
+<Code body of function Ltest.js/sum>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..9]
+    -> BB2
+    -> BB11
+BB2[10..12]
+    -> BB3
+    -> BB11
+BB3[13..13]
+    -> BB4
+    -> BB11
+BB4[14..15]
+    -> BB5
+BB5[16..17]
+    -> BB9
+    -> BB6
+BB6[18..20]
+    -> BB7
+    -> BB11
+BB7[21..21]
+    -> BB8
+    -> BB11
+BB8[22..25]
+    -> BB5
+BB9[26..32]
+    -> BB10
+    -> BB11
+BB10[33..33]
+    -> BB11
+BB11[-1..-2]
+Instructions:
+BB0
+BB1
+0   v3 = new <JavaScriptLoader,LArray>@0     test.js [189->468] (line 17) [3=[arguments]]
+1   v5 = global:global $$undefined           test.js [224->285] (line 19) [5=[_len]]
+3   v7 = global:global $$undefined           test.js [224->285] (line 19) [7=[args, $$destructure$rcvr1]]
+5   v9 = global:global $$undefined           test.js [224->285] (line 19) [9=[_key]]
+8   v6 = prototype_values(v3)                test.js [235->251] (line 19) [3=[arguments]]
+9   v11 = getfield < JavaScriptLoader, LRoot, length, <JavaScriptLoader,LRoot> > v6test.js [235->251] (line 19) [11=[_len]]
+BB2
+11   v16 = global:global Array               test.js [264->269] (line 19)
+12   check v16                               test.js [264->269] (line 19)
+BB3
+13   v14 = construct v16@13 v11 exception:v17test.js [260->275] (line 19) [14=[args, $$destructure$rcvr1]11=[_len]]
+BB4
+BB5
+           v8 = phi  v27,v18:#0.0
+16   v19 = binaryop(lt) v8 , v11             test.js [295->306] (line 20) [8=[_key]11=[_len]]
+17   conditional branch(eq, to iindex=26) v19,v20:#0test.js [210->374] (line 18)
+BB6
+19   v10 = prototype_values(v3)              test.js [352->367] (line 23) [3=[arguments]]
+20   v21 = fieldref v10.v8                   test.js [352->367] (line 23) [8=[_key]]
+BB7
+21   fieldref v14.v8 = v21 = v21             test.js [339->367] (line 23) [14=[args, $$destructure$rcvr1]8=[_key]]
+BB8
+23   v27 = binaryop(add) v8 , v25:#1         test.js [316->322] (line 21) [27=[_key]8=[_key]]
+25   goto (from iindex= 25 to iindex = 16)   test.js [210->374] (line 18)
+BB9
+30   v36 = global:global Function            test.js [386->465] (line 25)
+31   v33 = construct v36@31 v35:#Ltest.js/sum/test.js@398 exception:v34test.js [386->465] (line 25)
+32   v32 = dispatch v31:#reduce@32 v14,v33,v18:#0.0 exception:v37test.js [386->465] (line 25) [31=[$$destructure$elt1]14=[args, $$destructure$rcvr1]18=[_key]]
+BB10
+33   return v32                              test.js [379->466] (line 25)
+BB11
+
 <Code body of function Ltest.js>
 CFG:
 BB0[-1..-2]
     -> BB1
-BB1[0..14]
+BB1[0..7]
     -> BB2
+    -> BB5
+BB2[8..11]
     -> BB3
-BB2[15..16]
-    -> BB3
-BB3[-1..-2]
+    -> BB5
+BB3[12..13]
+    -> BB4
+    -> BB5
+BB4[14..14]
+    -> BB5
+BB5[-1..-2]
 Instructions:
 BB0
 BB1
-0   v1 = new <JavaScriptLoader,LArray>@0     test.js [0->582] (line 1) [1=[arguments]]
-1   v3 = global:global $$undefined           test.js [507->518] (line 29) [3=[a]]
-3   v5 = global:global $$undefined           test.js [519->530] (line 30) [5=[b]]
-5   v7 = global:global $$undefined           test.js [531->545] (line 31) [7=[c]]
-7   v9 = global:global $$undefined           test.js [565->580] (line 34) [9=[d]]
-11   v13 = binaryop(add) v11:#11.0 , v12:#22.0test.js [539->544] (line 31) [13=[c]11=[a]12=[b]]
-13   v14 = binaryop(lt) v13 , v15:#30.0      test.js [551->557] (line 33) [13=[c]]
-14   conditional branch(eq, to iindex=-1) v14,v16:#0test.js [547->582] (line 33)
+0   v1 = new <JavaScriptLoader,LArray>@0     test.js [0->501] (line 1) [1=[arguments]]
+1   v5 = global:global Function              test.js [0->501] (line 1)
+2   v2 = construct v5@2 v4:#Ltest.js/sum exception:v3test.js [0->501] (line 1)
+3   global:global sum = v2                   test.js [0->501] (line 1)
+6   v11 = global:global console              test.js [470->477] (line 31) [11=[$$destructure$rcvr2]]
+7   check v11                                test.js [470->477] (line 31) [11=[$$destructure$rcvr2]]
 BB2
-15   v17 = binaryop(sub) v13 , v18:#20.0     test.js [573->579] (line 34) [17=[d]13=[c]]
+10   v15 = global:global sum                 test.js [482->485] (line 31)
+11   check v15                               test.js [482->485] (line 31)
 BB3
+12   v17 = global:global __WALA__int3rnal__globaltest.js [482->499] (line 31)
+13   v14 = invoke v15@13 v17,v18:#1.0,v19:#2.0,v20:#10.0,v21:#20.0 exception:v22test.js [482->499] (line 31)
+BB4
+14   v13 = dispatch v12:#log@14 v11,v14 exception:v23test.js [470->500] (line 31) [12=[$$destructure$elt2]11=[$$destructure$rcvr2]]
+BB5
 

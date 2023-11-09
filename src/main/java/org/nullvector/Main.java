@@ -11,6 +11,7 @@ import com.ibm.wala.ipa.cha.ClassHierarchyException;
 import com.ibm.wala.ipa.cha.IClassHierarchy;
 import com.ibm.wala.ssa.IR;
 import com.ibm.wala.ssa.IRFactory;
+import com.ibm.wala.ssa.SSAInstruction;
 import com.ibm.wala.ssa.SSAOptions;
 
 import java.nio.file.Path;
@@ -37,7 +38,11 @@ public class Main {
                 IMethod m = klass.getMethod(AstMethodReference.fnSelector);
                 if (m != null) {
                     IR ir = factory.makeIR(m, Everywhere.EVERYWHERE, new SSAOptions());
-                    System.out.println(ir);
+//                    System.out.println(ir);
+                    SSAInstruction[] instructions = ir.getInstructions();
+                    for (SSAInstruction instruction : instructions) {
+                        System.out.println(instruction);
+                    }
                 }
             }
         }

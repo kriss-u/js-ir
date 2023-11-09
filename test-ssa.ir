@@ -1,0 +1,54 @@
+5 = new <JavaScriptLoader,LArray>@0
+null
+7 = binaryop(add) 3 , 4
+null
+return 7
+3 = new <JavaScriptLoader,LArray>@0
+5 = global:global $$undefined
+null
+7 = global:global $$undefined
+null
+9 = global:global $$undefined
+null
+null
+6 = prototype_values(3)
+11 = getfield < JavaScriptLoader, LRoot, length, <JavaScriptLoader,LRoot> > 6
+null
+16 = global:global Array
+check 16
+14 = construct 16@13 11 exception:17
+null
+null
+19 = binaryop(lt) 8 , 11
+conditional branch(eq, to iindex=26) 19,20
+null
+10 = prototype_values(3)
+21 = fieldref 10.8
+fieldref 14.8 = 21 = 21
+null
+27 = binaryop(add) 8 , 25
+null
+goto (from iindex= 25 to iindex = 16)
+null
+null
+null
+null
+36 = global:global Function
+33 = construct 36@31 35 exception:34
+32 = dispatch 31@32 14,33,18 exception:37
+return 32
+1 = new <JavaScriptLoader,LArray>@0
+5 = global:global Function
+2 = construct 5@2 4 exception:3
+global:global sum = 2
+null
+null
+11 = global:global console
+check 11
+null
+null
+15 = global:global sum
+check 15
+17 = global:global __WALA__int3rnal__global
+14 = invoke 15@13 17,18,19,20,21 exception:22
+13 = dispatch 12@14 11,14 exception:23
