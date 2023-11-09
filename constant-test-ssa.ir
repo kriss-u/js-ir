@@ -1,0 +1,22 @@
+1 = new <JavaScriptLoader,LArray>@0
+3 = global:global $$undefined
+null
+5 = global:global $$undefined
+null
+7 = global:global $$undefined
+null
+9 = global:global $$undefined
+null
+null
+null
+13 = binaryop(add) 11 , 14
+null
+15 = binaryop(add) 12 , 13
+null
+null
+null
+20 = global:global console
+check 20
+null
+null
+22 = dispatch 21@21 20,15 exception:23

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44c0ea5-088b-4b0b-b359-6206687a488e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constant-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nullvector/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nullvector/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.ir" beforeDir="false" afterPath="$PROJECT_DIR$/test.ir" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699416118730</updated>
       <workItem from="1699416119846" duration="2342000" />
-      <workItem from="1699534531057" duration="333000" />
+      <workItem from="1699534531057" duration="1734000" />
     </task>
     <servers />
   </component>
