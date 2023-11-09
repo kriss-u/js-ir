@@ -1,0 +1,2330 @@
+<Code body of function LApp.js/App/onPress>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..2]
+    -> BB2
+    -> BB5
+BB2[3..5]
+    -> BB3
+    -> BB5
+BB3[6..6]
+    -> BB4
+    -> BB5
+BB4[7..7]
+    -> BB5
+BB5[-1..-2]
+Instructions:
+BB0
+BB1
+0   v3 = new <JavaScriptLoader,LArray>@0     App.js [4070->4137] (line 116) [3=[arguments]]
+1   v6 = lexical:handleSubmit@LApp.js/App    App.js [4108->4120] (line 117)
+2   check v6                                 App.js [4108->4120] (line 117)
+BB2
+3   v8 = global:global __WALA__int3rnal__globalApp.js [4108->4126] (line 117)
+4   v10 = lexical:form@LApp.js/App           App.js [4121->4125] (line 117)
+5   check v10                                App.js [4121->4125] (line 117)
+BB3
+6   v4 = invoke v6@6 v8,v10 exception:v11    App.js [4108->4126] (line 117)
+BB4
+7   return v4                                App.js [4101->4127] (line 117)
+BB5
+
+<Code body of function LApp.js/App/App.js@2684>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..4]
+    -> BB2
+BB2[-1..-2]
+Instructions:
+BB0
+BB1
+0   lexical:fieldName@LApp.js/App/App.js@2684 = v3App.js [2684->2949] (line 73) [3=[fieldName]]
+1   v4 = new <JavaScriptLoader,LArray>@1     App.js [2684->2949] (line 73) [4=[arguments]]
+2   v8 = global:global Function              App.js [2711->2945] (line 74)
+3   v5 = construct v8@3 v7:#LApp.js/App/App.js@2684/App.js@2718 exception:v6App.js [2711->2945] (line 74)
+4   return v5                                App.js [2711->2945] (line 74)
+BB2
+
+<Code body of function LApp.js/_objectSpread/App.js@2140>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..4]
+    -> BB2
+    -> BB7
+BB2[5..8]
+    -> BB3
+    -> BB7
+BB3[9..12]
+    -> BB4
+    -> BB7
+BB4[13..16]
+    -> BB5
+    -> BB7
+BB5[17..17]
+    -> BB6
+    -> BB7
+BB6[18..18]
+    -> BB7
+BB7[-1..-2]
+Instructions:
+BB0
+BB1
+0   v4 = new <JavaScriptLoader,LArray>@0     App.js [2140->2242] (line 58) [4=[arguments]]
+3   v9 = global:global Object                App.js [2165->2171] (line 59) [9=[$$destructure$rcvr34]]
+4   check v9                                 App.js [2165->2171] (line 59) [9=[$$destructure$rcvr34]]
+BB2
+7   v13 = lexical:e@LApp.js/_objectSpread    App.js [2187->2188] (line 59)
+8   check v13                                App.js [2187->2188] (line 59)
+BB3
+11   v16 = global:global Object              App.js [2193->2199] (line 59) [16=[$$destructure$rcvr35]]
+12   check v16                               App.js [2193->2199] (line 59) [16=[$$destructure$rcvr35]]
+BB4
+15   v20 = lexical:t@LApp.js/_objectSpread   App.js [2225->2226] (line 59)
+16   check v20                               App.js [2225->2226] (line 59)
+BB5
+17   v18 = dispatch v17:#getOwnPropertyDescriptor@17 v16,v20,v3 exception:v21App.js [2193->2230] (line 59) [17=[$$destructure$elt35]16=[$$destructure$rcvr35]3=[r]]
+BB6
+18   v11 = dispatch v10:#defineProperty@18 v9,v13,v3,v18 exception:v22App.js [2165->2231] (line 59) [10=[$$destructure$elt34]9=[$$destructure$rcvr34]3=[r]]
+BB7
+
+<Code body of function LApp.js/ownKeys/App.js@1600>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..4]
+    -> BB2
+    -> BB6
+BB2[5..8]
+    -> BB3
+    -> BB6
+BB3[9..9]
+    -> BB4
+    -> BB6
+BB4[10..12]
+    -> BB5
+    -> BB6
+BB5[13..13]
+    -> BB6
+BB6[-1..-2]
+Instructions:
+BB0
+BB1
+0   v4 = new <JavaScriptLoader,LArray>@0     App.js [1600->1687] (line 42) [4=[arguments]]
+3   v10 = global:global Object               App.js [1630->1636] (line 43) [10=[$$destructure$rcvr23]]
+4   check v10                                App.js [1630->1636] (line 43) [10=[$$destructure$rcvr23]]
+BB2
+7   v14 = lexical:e@LApp.js/ownKeys          App.js [1662->1663] (line 43)
+8   check v14                                App.js [1662->1663] (line 43)
+BB3
+9   v12 = dispatch v11:#getOwnPropertyDescriptor@9 v10,v14,v3 exception:v15App.js [1630->1667] (line 43) [11=[$$destructure$elt23]10=[$$destructure$rcvr23]3=[r]]
+BB4
+11   v7 = prototype_values(v12)              App.js [1630->1678] (line 43)
+12   v5 = getfield < JavaScriptLoader, LRoot, enumerable, <JavaScriptLoader,LRoot> > v7App.js [1630->1678] (line 43)
+BB5
+13   return v5                               App.js [1623->1679] (line 43)
+BB6
+
+<Code body of function LApp.js/_interopRequireWildcard>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..12]
+    -> BB7
+    -> BB2
+BB2[13..14]
+    -> BB5
+    -> BB3
+BB3[15..17]
+    -> BB4
+    -> BB79
+BB4[18..19]
+    -> BB6
+BB5[20..20]
+    -> BB6
+BB6[21..22]
+    -> BB8
+BB7[23..23]
+    -> BB8
+BB8[24..24]
+    -> BB10
+    -> BB9
+BB9[25..25]
+    -> BB79
+BB10[26..27]
+    -> BB12
+    -> BB11
+BB11[28..29]
+    -> BB16
+BB12[30..32]
+    -> BB14
+    -> BB13
+BB13[33..36]
+    -> BB15
+BB14[37..37]
+    -> BB15
+BB15[38..38]
+    -> BB16
+BB16[39..39]
+    -> BB21
+    -> BB17
+BB17[40..41]
+    -> BB18
+    -> BB79
+BB18[42..42]
+    -> BB19
+    -> BB79
+BB19[43..43]
+    -> BB20
+    -> BB79
+BB20[44..44]
+    -> BB79
+BB21[45..46]
+    -> BB22
+    -> BB79
+BB22[47..48]
+    -> BB23
+    -> BB79
+BB23[49..51]
+    -> BB26
+    -> BB24
+BB24[52..56]
+    -> BB25
+    -> BB79
+BB25[57..58]
+    -> BB27
+BB26[59..59]
+    -> BB27
+BB27[60..60]
+    -> BB30
+    -> BB28
+BB28[61..65]
+    -> BB29
+    -> BB79
+BB29[66..66]
+    -> BB79
+BB30[67..68]
+    -> BB31
+    -> BB79
+BB31[69..69]
+    -> BB32
+    -> BB79
+BB32[70..70]
+    -> BB33
+    -> BB79
+BB33[71..73]
+    -> BB34
+    -> BB79
+BB34[74..76]
+    -> BB35
+    -> BB79
+BB35[77..77]
+    -> BB39
+    -> BB36
+BB36[78..79]
+    -> BB37
+    -> BB79
+BB37[80..82]
+    -> BB38
+    -> BB79
+BB38[83..84]
+    -> BB40
+BB39[85..85]
+    -> BB40
+BB40[86..89]
+    -> BB41
+BB41[90..90]
+    -> BB42
+    -> BB79
+BB42[91..92]
+    -> BB73
+    -> BB43
+BB43[93..93]
+    -> BB44
+    -> BB79
+BB44[94..96]
+    -> BB50
+    -> BB45
+BB45[97..100]
+    -> BB46
+    -> BB79
+BB46[101..103]
+    -> BB47
+    -> BB79
+BB47[104..106]
+    -> BB48
+    -> BB79
+BB48[107..109]
+    -> BB49
+    -> BB79
+BB49[110..111]
+    -> BB51
+BB50[112..112]
+    -> BB51
+BB51[113..113]
+    -> BB72
+    -> BB52
+BB52[114..114]
+    -> BB56
+    -> BB53
+BB53[115..118]
+    -> BB54
+    -> BB79
+BB54[119..121]
+    -> BB55
+    -> BB79
+BB55[122..123]
+    -> BB57
+BB56[124..124]
+    -> BB57
+BB57[125..127]
+    -> BB64
+    -> BB58
+BB58[128..130]
+    -> BB59
+    -> BB79
+BB59[131..131]
+    -> BB61
+    -> BB60
+BB60[132..133]
+    -> BB63
+BB61[134..136]
+    -> BB62
+    -> BB79
+BB62[137..137]
+    -> BB63
+BB63[138..139]
+    -> BB65
+BB64[140..140]
+    -> BB65
+BB65[141..141]
+    -> BB69
+    -> BB66
+BB66[142..145]
+    -> BB67
+    -> BB79
+BB67[146..148]
+    -> BB68
+    -> BB79
+BB68[149..150]
+    -> BB72
+BB69[151..153]
+    -> BB70
+    -> BB79
+BB70[154..154]
+    -> BB71
+    -> BB79
+BB71[155..155]
+    -> BB72
+BB72[156..156]
+    -> BB41
+BB73[157..157]
+    -> BB74
+    -> BB79
+BB74[158..159]
+    -> BB77
+    -> BB75
+BB75[160..164]
+    -> BB76
+    -> BB79
+BB76[165..166]
+    -> BB78
+BB77[167..167]
+    -> BB78
+BB78[168..168]
+    -> BB79
+BB79[-1..-2]
+Instructions:
+BB0
+BB1
+0   v5 = new <JavaScriptLoader,LArray>@0     App.js [795->1436] (line 22) [5=[arguments]]
+1   v7 = global:global $$undefined           App.js [976->1012] (line 26) [7=[t, $$destructure$rcvr19]]
+3   v9 = global:global $$undefined           App.js [1053->1147] (line 28) [9=[n]]
+5   v11 = global:global $$undefined          App.js [1053->1147] (line 28) [11=[a]]
+7   v13 = global:global $$undefined          App.js [795->1436] (line 22) [13=[u]]
+9   v15 = global:global $$undefined          App.js [1246->1303] (line 32) [15=[i]]
+11   v17 = neg v4                            App.js [842->844] (line 23) [4=[r]]
+12   conditional branch(eq, to iindex=23) v17,v19:#0App.js [842->865] (line 23)
+BB2
+14   conditional branch(eq, to iindex=20) v3,v19:#0App.js [848->865] (line 23) [3=[e]]
+BB3
+16   v8 = prototype_values(v3)               App.js [853->865] (line 23) [3=[e]]
+17   v22 = getfield < JavaScriptLoader, LRoot, __esModule, <JavaScriptLoader,LRoot> > v8App.js [853->865] (line 23)
+BB4
+19   goto (from iindex= 19 to iindex = 21)   App.js [848->865] (line 23)
+BB5
+BB6
+           v10 = phi  v22,v3
+22   goto (from iindex= 22 to iindex = 24)   App.js [842->865] (line 23)
+BB7
+BB8
+           v12 = phi  v10,v17
+24   conditional branch(eq, to iindex=26) v12,v19:#0App.js [838->876] (line 23)
+BB9
+25   return v3                               App.js [867->876] (line 23) [3=[e]]
+BB10
+26   v25 = binaryop(strict_eq) v26:#null , v3App.js [883->893] (line 24) [26=[$$destructure$elt19]3=[e]]
+27   conditional branch(eq, to iindex=30) v25,v19:#0App.js [883->945] (line 24)
+BB11
+29   goto (from iindex= 29 to iindex = 39)   App.js [883->945] (line 24)
+BB12
+30   v30 = typeof(v3)                        App.js [910->918] (line 24) [3=[e]]
+31   v28 = binaryop(ne) v29:#object , v30    App.js [898->918] (line 24)
+32   conditional branch(eq, to iindex=37) v28,v19:#0App.js [898->944] (line 24)
+BB13
+33   v34 = typeof(v3)                        App.js [936->944] (line 24) [3=[e]]
+34   v32 = binaryop(ne) v33:#function , v34  App.js [922->944] (line 24)
+36   goto (from iindex= 36 to iindex = 38)   App.js [898->944] (line 24)
+BB14
+BB15
+           v14 = phi  v32,v28
+BB16
+           v16 = phi  v25,v14
+39   conditional branch(eq, to iindex=45) v16,v19:#0App.js [879->973] (line 24)
+BB17
+40   v37 = global:global Object              App.js [958->972] (line 25)
+41   check v37                               App.js [958->972] (line 25)
+BB18
+42   v35 = construct v37@42 exception:v38    App.js [958->972] (line 25)
+BB19
+43   fieldref v35.v39:#default = v3 = v3     App.js [958->972] (line 25) [3=[e]]
+BB20
+44   return v35                              App.js [951->973] (line 25)
+BB21
+45   v42 = global:global _getRequireWildcardCacheApp.js [984->1008] (line 26)
+46   check v42                               App.js [984->1008] (line 26)
+BB22
+47   v44 = global:global __WALA__int3rnal__globalApp.js [984->1011] (line 26)
+48   v40 = invoke v42@48 v44,v4 exception:v45App.js [984->1011] (line 26) [40=[t, $$destructure$rcvr19]4=[r]]
+BB23
+51   conditional branch(eq, to iindex=59) v40,v19:#0App.js [1019->1032] (line 27) [40=[t, $$destructure$rcvr19]]
+BB24
+56   v51 = dispatch v50:#has@56 v40,v3 exception:v52App.js [1024->1032] (line 27) [50=[$$destructure$elt14]40=[t, $$destructure$rcvr19]3=[e]]
+BB25
+58   goto (from iindex= 58 to iindex = 60)   App.js [1019->1032] (line 27)
+BB26
+BB27
+           v18 = phi  v51,v40
+60   conditional branch(eq, to iindex=67) v18,v19:#0App.js [1015->1050] (line 27)
+BB28
+65   v56 = dispatch v55:#get@65 v40,v3 exception:v57App.js [1041->1049] (line 27) [55=[$$destructure$elt15]40=[t, $$destructure$rcvr19]3=[e]]
+BB29
+66   return v56                              App.js [1034->1050] (line 27)
+BB30
+67   v59 = global:global Object              App.js [1061->1080] (line 28)
+68   check v59                               App.js [1061->1080] (line 28)
+BB31
+69   v58 = construct v59@69 exception:v60    App.js [1061->1080] (line 28) [58=[n]]
+BB32
+70   fieldref v58.v61:#__proto__ = v26:#null = v26:#nullApp.js [1061->1080] (line 28) [58=[n]26=[$$destructure$elt19]]
+BB33
+72   v63 = global:global Object              App.js [1090->1096] (line 29)
+73   check v63                               App.js [1090->1096] (line 29)
+BB34
+75   v20 = prototype_values(v63)             App.js [1090->1111] (line 29)
+76   v62 = getfield < JavaScriptLoader, LRoot, defineProperty, <JavaScriptLoader,LRoot> > v20App.js [1090->1111] (line 29) [62=[a]]
+BB35
+77   conditional branch(eq, to iindex=85) v62,v19:#0App.js [1090->1146] (line 29) [62=[a]]
+BB36
+78   v68 = global:global Object              App.js [1115->1121] (line 29)
+79   check v68                               App.js [1115->1121] (line 29)
+BB37
+81   v21 = prototype_values(v68)             App.js [1115->1146] (line 29)
+82   v67 = getfield < JavaScriptLoader, LRoot, getOwnPropertyDescriptor, <JavaScriptLoader,LRoot> > v21App.js [1115->1146] (line 29) [67=[a]]
+BB38
+84   goto (from iindex= 84 to iindex = 86)   App.js [1090->1146] (line 29)
+BB39
+BB40
+           v24 = phi  v67,v62
+87   v71 = global:global $$undefined         App.js [1150->1387] (line 30)
+BB41
+           v27 = phi  v76,v13
+90   v75 = a property name of v3             App.js [1150->1387] (line 30) [3=[e]27=[u]]
+BB42
+91   v74 = binaryop(ne) v26:#null , v75      App.js [1150->1387] (line 30) [26=[$$destructure$elt19]]
+92   conditional branch(eq, to iindex=157) v74,v19:#0App.js [1150->1387] (line 30)
+BB43
+93   v76 = a property name of v3             App.js [1150->1387] (line 30) [76=[u]3=[e]27=[u]]
+BB44
+95   v77 = binaryop(strict_ne) v39:#default , v76App.js [1175->1190] (line 31) [76=[u]]
+96   conditional branch(eq, to iindex=112) v77,v19:#0App.js [1175->1236] (line 31)
+BB45
+99   v83 = global:global Object              App.js [1194->1200] (line 31)
+100   check v83                              App.js [1194->1200] (line 31)
+BB46
+102   v31 = prototype_values(v83)            App.js [1194->1210] (line 31)
+103   v82 = getfield < JavaScriptLoader, LRoot, prototype, <JavaScriptLoader,LRoot> > v31App.js [1194->1210] (line 31)
+BB47
+105   v46 = prototype_values(v82)            App.js [1194->1225] (line 31)
+106   v81 = getfield < JavaScriptLoader, LRoot, hasOwnProperty, <JavaScriptLoader,LRoot> > v46App.js [1194->1225] (line 31) [81=[$$destructure$rcvr16]]
+BB48
+109   v89 = dispatch v88:#call@109 v81,v3,v76 exception:v90App.js [1194->1236] (line 31) [88=[$$destructure$elt16]81=[$$destructure$rcvr16]3=[e]76=[u]]
+BB49
+111   goto (from iindex= 111 to iindex = 113)App.js [1175->1236] (line 31)
+BB50
+BB51
+           v47 = phi  v89,v77
+113   conditional branch(eq, to iindex=156) v47,v19:#0App.js [1171->1387] (line 31)
+BB52
+114   conditional branch(eq, to iindex=124) v24,v19:#0App.js [1254->1302] (line 32) [24=[a]]
+BB53
+117   v94 = global:global Object             App.js [1258->1264] (line 32) [94=[$$destructure$rcvr17]]
+118   check v94                              App.js [1258->1264] (line 32) [94=[$$destructure$rcvr17]]
+BB54
+121   v95 = dispatch v69:#getOwnPropertyDescriptor@121 v94,v3,v76 exception:v96App.js [1258->1295] (line 32) [95=[i]69=[$$destructure$elt17]94=[$$destructure$rcvr17]3=[e]76=[u]]
+BB55
+123   goto (from iindex= 123 to iindex = 125)App.js [1254->1302] (line 32)
+BB56
+BB57
+           v48 = phi  v95,v26:#null
+127   conditional branch(eq, to iindex=140) v48,v19:#0App.js [1310->1331] (line 33) [48=[i]]
+BB58
+129   v49 = prototype_values(v48)            App.js [1316->1321] (line 33) [48=[i]]
+130   v100 = getfield < JavaScriptLoader, LRoot, get, <JavaScriptLoader,LRoot> > v49App.js [1316->1321] (line 33)
+BB59
+131   conditional branch(eq, to iindex=134) v100,v19:#0App.js [1316->1330] (line 33)
+BB60
+133   goto (from iindex= 133 to iindex = 138)App.js [1316->1330] (line 33)
+BB61
+135   v53 = prototype_values(v48)            App.js [1325->1330] (line 33) [48=[i]]
+136   v103 = getfield < JavaScriptLoader, LRoot, set, <JavaScriptLoader,LRoot> > v53App.js [1325->1330] (line 33)
+BB62
+BB63
+           v54 = phi  v100,v103
+139   goto (from iindex= 139 to iindex = 141)App.js [1310->1331] (line 33)
+BB64
+BB65
+           v65 = phi  v54,v48
+141   conditional branch(eq, to iindex=151) v65,v19:#0App.js [1310->1380] (line 33)
+BB66
+144   v108 = global:global Object            App.js [1334->1340] (line 33) [108=[$$destructure$rcvr18]]
+145   check v108                             App.js [1334->1340] (line 33) [108=[$$destructure$rcvr18]]
+BB67
+148   v109 = dispatch v64:#defineProperty@148 v108,v58,v76,v48 exception:v110App.js [1334->1364] (line 33) [64=[$$destructure$elt18]108=[$$destructure$rcvr18]58=[n]76=[u]48=[i]]
+BB68
+150   goto (from iindex= 150 to iindex = 156)App.js [1310->1380] (line 33)
+BB69
+152   v66 = prototype_values(v3)             App.js [1375->1379] (line 33) [3=[e]]
+153   v111 = fieldref v66.v76                App.js [1375->1379] (line 33) [76=[u]]
+BB70
+154   fieldref v58.v76 = v111 = v111         App.js [1368->1379] (line 33) [58=[n]76=[u]]
+BB71
+BB72
+156   goto (from iindex= 156 to iindex = 90) App.js [1150->1387] (line 30)
+BB73
+157   fieldref v58.v39:#default = v3 = v3    App.js [1398->1411] (line 35) [58=[n]3=[e]]
+BB74
+159   conditional branch(eq, to iindex=167) v40,v19:#0App.js [1414->1430] (line 35) [40=[t, $$destructure$rcvr19]]
+BB75
+164   v119 = dispatch v104:#set@164 v40,v3,v58 exception:v120App.js [1419->1430] (line 35) [104=[$$destructure$elt19]40=[t, $$destructure$rcvr19]3=[e]58=[n]]
+BB76
+166   goto (from iindex= 166 to iindex = 168)App.js [1414->1430] (line 35)
+BB77
+BB78
+168   return v58                             App.js [1390->1434] (line 35) [58=[n]]
+BB79
+
+<Code body of function LApp.js/App>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..22]
+    -> BB2
+    -> BB106
+BB2[23..25]
+    -> BB3
+    -> BB106
+BB3[26..28]
+    -> BB4
+    -> BB106
+BB4[29..29]
+    -> BB5
+    -> BB106
+BB5[30..30]
+    -> BB6
+    -> BB106
+BB6[31..31]
+    -> BB7
+    -> BB106
+BB7[32..32]
+    -> BB8
+    -> BB106
+BB8[33..35]
+    -> BB9
+    -> BB106
+BB9[36..38]
+    -> BB10
+    -> BB106
+BB10[39..40]
+    -> BB11
+    -> BB106
+BB11[41..44]
+    -> BB12
+    -> BB106
+BB12[45..48]
+    -> BB13
+    -> BB106
+BB13[49..51]
+    -> BB14
+    -> BB106
+BB14[52..54]
+    -> BB15
+    -> BB106
+BB15[55..56]
+    -> BB16
+    -> BB106
+BB16[57..59]
+    -> BB17
+    -> BB106
+BB17[60..62]
+    -> BB18
+    -> BB106
+BB18[63..64]
+    -> BB19
+    -> BB106
+BB19[65..68]
+    -> BB20
+    -> BB106
+BB20[69..72]
+    -> BB21
+    -> BB106
+BB21[73..75]
+    -> BB22
+    -> BB106
+BB22[76..78]
+    -> BB23
+    -> BB106
+BB23[79..83]
+    -> BB24
+    -> BB106
+BB24[84..84]
+    -> BB25
+    -> BB106
+BB25[85..85]
+    -> BB26
+    -> BB106
+BB26[86..88]
+    -> BB27
+    -> BB106
+BB27[89..91]
+    -> BB28
+    -> BB106
+BB28[92..96]
+    -> BB29
+    -> BB106
+BB29[97..97]
+    -> BB30
+    -> BB106
+BB30[98..99]
+    -> BB31
+    -> BB106
+BB31[100..100]
+    -> BB32
+    -> BB106
+BB32[101..103]
+    -> BB33
+    -> BB106
+BB33[104..106]
+    -> BB34
+    -> BB106
+BB34[107..109]
+    -> BB35
+    -> BB106
+BB35[110..112]
+    -> BB36
+    -> BB106
+BB36[113..114]
+    -> BB37
+    -> BB106
+BB37[115..115]
+    -> BB38
+    -> BB106
+BB38[116..117]
+    -> BB39
+    -> BB106
+BB39[118..120]
+    -> BB40
+    -> BB106
+BB40[121..121]
+    -> BB41
+    -> BB106
+BB41[122..123]
+    -> BB42
+    -> BB106
+BB42[124..124]
+    -> BB43
+    -> BB106
+BB43[125..126]
+    -> BB44
+    -> BB106
+BB44[127..129]
+    -> BB45
+    -> BB106
+BB45[130..132]
+    -> BB46
+    -> BB106
+BB46[133..135]
+    -> BB47
+    -> BB106
+BB47[136..137]
+    -> BB48
+    -> BB106
+BB48[138..138]
+    -> BB49
+    -> BB106
+BB49[139..139]
+    -> BB50
+    -> BB106
+BB50[140..143]
+    -> BB51
+    -> BB106
+BB51[144..144]
+    -> BB52
+    -> BB106
+BB52[145..146]
+    -> BB53
+    -> BB106
+BB53[147..149]
+    -> BB54
+    -> BB106
+BB54[150..150]
+    -> BB55
+    -> BB106
+BB55[151..152]
+    -> BB56
+    -> BB106
+BB56[153..153]
+    -> BB57
+    -> BB106
+BB57[154..154]
+    -> BB58
+    -> BB106
+BB58[155..155]
+    -> BB59
+    -> BB106
+BB59[156..157]
+    -> BB60
+    -> BB106
+BB60[158..160]
+    -> BB61
+    -> BB106
+BB61[161..163]
+    -> BB62
+    -> BB106
+BB62[164..166]
+    -> BB63
+    -> BB106
+BB63[167..168]
+    -> BB64
+    -> BB106
+BB64[169..169]
+    -> BB65
+    -> BB106
+BB65[170..170]
+    -> BB66
+    -> BB106
+BB66[171..174]
+    -> BB67
+    -> BB106
+BB67[175..175]
+    -> BB68
+    -> BB106
+BB68[176..177]
+    -> BB69
+    -> BB106
+BB69[178..180]
+    -> BB70
+    -> BB106
+BB70[181..181]
+    -> BB71
+    -> BB106
+BB71[182..183]
+    -> BB72
+    -> BB106
+BB72[184..184]
+    -> BB73
+    -> BB106
+BB73[185..185]
+    -> BB74
+    -> BB106
+BB74[186..186]
+    -> BB75
+    -> BB106
+BB75[187..187]
+    -> BB76
+    -> BB106
+BB76[188..189]
+    -> BB77
+    -> BB106
+BB77[190..192]
+    -> BB78
+    -> BB106
+BB78[193..195]
+    -> BB79
+    -> BB106
+BB79[196..198]
+    -> BB80
+    -> BB106
+BB80[199..200]
+    -> BB81
+    -> BB106
+BB81[201..201]
+    -> BB82
+    -> BB106
+BB82[202..202]
+    -> BB86
+    -> BB83
+BB83[203..204]
+    -> BB84
+    -> BB106
+BB84[205..207]
+    -> BB85
+    -> BB106
+BB85[208..209]
+    -> BB89
+BB86[210..211]
+    -> BB87
+    -> BB106
+BB87[212..214]
+    -> BB88
+    -> BB106
+BB88[215..215]
+    -> BB89
+BB89[216..216]
+    -> BB90
+    -> BB106
+BB90[217..219]
+    -> BB91
+    -> BB106
+BB91[220..220]
+    -> BB92
+    -> BB106
+BB92[221..222]
+    -> BB93
+    -> BB106
+BB93[223..225]
+    -> BB94
+    -> BB106
+BB94[226..228]
+    -> BB95
+    -> BB106
+BB95[229..231]
+    -> BB96
+    -> BB106
+BB96[232..233]
+    -> BB97
+    -> BB106
+BB97[234..234]
+    -> BB98
+    -> BB106
+BB98[235..235]
+    -> BB99
+    -> BB106
+BB99[236..236]
+    -> BB100
+    -> BB106
+BB100[237..237]
+    -> BB101
+    -> BB106
+BB101[238..238]
+    -> BB102
+    -> BB106
+BB102[239..239]
+    -> BB103
+    -> BB106
+BB103[240..240]
+    -> BB104
+    -> BB106
+BB104[241..241]
+    -> BB105
+    -> BB106
+BB105[242..242]
+    -> BB106
+BB106[-1..-2]
+Instructions:
+BB0
+BB1
+0   v3 = new <JavaScriptLoader,LArray>@0     App.js [2263->4291] (line 64) [3=[arguments]]
+1   v5 = global:global $$undefined           App.js [2282->2467] (line 65) [5=[_useState]]
+3   v7 = global:global $$undefined           App.js [2282->2467] (line 65) [7=[_useState2]]
+5   v9 = global:global $$undefined           App.js [2282->2467] (line 65)
+6   lexical:form@LApp.js/App = v9            App.js [2282->2467] (line 65)
+7   v11 = global:global $$undefined          App.js [2282->2467] (line 65)
+8   lexical:setForm@LApp.js/App = v11        App.js [2282->2467] (line 65)
+9   v13 = global:global $$undefined          App.js [2470->2638] (line 69) [13=[_useState3]]
+11   v15 = global:global $$undefined         App.js [2470->2638] (line 69) [15=[_useState4]]
+13   v17 = global:global $$undefined         App.js [2470->2638] (line 69) [17=[loading]]
+15   v19 = global:global $$undefined         App.js [2470->2638] (line 69)
+16   lexical:setLoading@LApp.js/App = v19    App.js [2470->2638] (line 69)
+17   v21 = global:global $$undefined         App.js [2641->2955] (line 73) [21=[handleChange]]
+19   v23 = global:global $$undefined         App.js [2958->3386] (line 84)
+20   lexical:handleSubmit@LApp.js/App = v23  App.js [2958->3386] (line 84)
+21   v29 = lexical:_react@LApp.js            App.js [2302->2308] (line 65)
+22   check v29                               App.js [2302->2308] (line 65)
+BB2
+24   v6 = prototype_values(v29)              App.js [2302->2317] (line 65)
+25   v27 = getfield < JavaScriptLoader, LRoot, useState, <JavaScriptLoader,LRoot> > v6App.js [2302->2317] (line 65)
+BB3
+26   v33 = global:global __WALA__int3rnal__globalApp.js [2298->2350] (line 65)
+27   v36 = global:global Object              App.js [2319->2349] (line 65)
+28   check v36                               App.js [2319->2349] (line 65)
+BB4
+29   v34 = construct v36@29 exception:v37    App.js [2319->2349] (line 65)
+BB5
+30   fieldref v34.v38:#username = v39:# = v39:#App.js [2319->2349] (line 65)
+BB6
+31   fieldref v34.v40:#password = v39:# = v39:#App.js [2319->2349] (line 65)
+BB7
+32   v25 = invoke v27@32 v33,v34 exception:v41App.js [2298->2350] (line 65) [25=[_useState]]
+BB8
+34   v45 = lexical:_slicedToArray2@LApp.js   App.js [2373->2388] (line 66)
+35   check v45                               App.js [2373->2388] (line 66)
+BB9
+37   v8 = prototype_values(v45)              App.js [2373->2396] (line 66)
+38   v43 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > v8App.js [2373->2396] (line 66)
+BB10
+39   v48 = global:global __WALA__int3rnal__globalApp.js [2369->2411] (line 66)
+40   v42 = invoke v43@40 v48,v25,v49:#2.0 exception:v50App.js [2369->2411] (line 66) [42=[_useState2]25=[_useState]]
+BB11
+43   v14 = prototype_values(v42)             App.js [2424->2437] (line 67) [42=[_useState2]]
+44   v51 = fieldref v14.v26:#0.0             App.js [2424->2437] (line 67)
+BB12
+45   lexical:form@LApp.js/App = v51          App.js [2282->2467] (line 65)
+47   v16 = prototype_values(v42)             App.js [2453->2466] (line 68) [42=[_useState2]]
+48   v53 = fieldref v16.v54:#1.0             App.js [2453->2466] (line 68)
+BB13
+49   lexical:setForm@LApp.js/App = v53       App.js [2282->2467] (line 65)
+50   v58 = lexical:_react@LApp.js            App.js [2491->2497] (line 69)
+51   check v58                               App.js [2491->2497] (line 69)
+BB14
+53   v18 = prototype_values(v58)             App.js [2491->2506] (line 69)
+54   v57 = getfield < JavaScriptLoader, LRoot, useState, <JavaScriptLoader,LRoot> > v18App.js [2491->2506] (line 69)
+BB15
+55   v60 = global:global __WALA__int3rnal__globalApp.js [2487->2514] (line 69)
+56   v56 = invoke v57@56 v60,v61:#false exception:v62App.js [2487->2514] (line 69) [56=[_useState3]]
+BB16
+58   v65 = lexical:_slicedToArray2@LApp.js   App.js [2537->2552] (line 70)
+59   check v65                               App.js [2537->2552] (line 70)
+BB17
+61   v22 = prototype_values(v65)             App.js [2537->2560] (line 70)
+62   v64 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > v22App.js [2537->2560] (line 70)
+BB18
+63   v67 = global:global __WALA__int3rnal__globalApp.js [2533->2576] (line 70)
+64   v63 = invoke v64@64 v67,v56,v49:#2.0 exception:v68App.js [2533->2576] (line 70) [63=[_useState4]56=[_useState3]]
+BB19
+67   v31 = prototype_values(v63)             App.js [2592->2605] (line 71) [63=[_useState4]]
+68   v69 = fieldref v31.v26:#0.0             App.js [2592->2605] (line 71) [69=[loading]]
+BB20
+71   v47 = prototype_values(v63)             App.js [2624->2637] (line 72) [63=[_useState4]]
+72   v71 = fieldref v47.v54:#1.0             App.js [2624->2637] (line 72)
+BB21
+73   lexical:setLoading@LApp.js/App = v71    App.js [2470->2638] (line 69)
+74   v75 = lexical:_react@LApp.js            App.js [2664->2670] (line 73)
+75   check v75                               App.js [2664->2670] (line 73)
+BB22
+77   v52 = prototype_values(v75)             App.js [2664->2682] (line 73)
+78   v74 = getfield < JavaScriptLoader, LRoot, useCallback, <JavaScriptLoader,LRoot> > v52App.js [2664->2682] (line 73)
+BB23
+79   v78 = global:global __WALA__int3rnal__globalApp.js [2660->2954] (line 73)
+80   v82 = global:global Function            App.js [2660->2954] (line 73)
+81   v79 = construct v82@81 v81:#LApp.js/App/App.js@2684 exception:v80App.js [2660->2954] (line 73)
+82   v87 = global:global Array               App.js [2951->2953] (line 83)
+83   check v87                               App.js [2951->2953] (line 83)
+BB24
+84   v85 = construct v87@84 exception:v88    App.js [2951->2953] (line 83)
+BB25
+85   v73 = invoke v74@85 v78,v79,v85 exception:v89App.js [2660->2954] (line 73) [73=[handleChange]]
+BB26
+87   v92 = lexical:_react@LApp.js            App.js [2981->2987] (line 84)
+88   check v92                               App.js [2981->2987] (line 84)
+BB27
+90   v55 = prototype_values(v92)             App.js [2981->2999] (line 84)
+91   v91 = getfield < JavaScriptLoader, LRoot, useCallback, <JavaScriptLoader,LRoot> > v55App.js [2981->2999] (line 84)
+BB28
+92   v94 = global:global __WALA__int3rnal__globalApp.js [2977->3385] (line 84)
+93   v98 = global:global Function            App.js [2977->3385] (line 84)
+94   v95 = construct v98@94 v97:#LApp.js/App/App.js@3006 exception:v96App.js [2977->3385] (line 84)
+95   v105 = global:global Array              App.js [3374->3380] (line 96)
+96   check v105                              App.js [3374->3380] (line 96)
+BB29
+97   v104 = construct v105@97 exception:v106 App.js [3374->3380] (line 96)
+BB30
+98   v108 = lexical:form@LApp.js/App         App.js [3375->3379] (line 96)
+99   fieldref v104.v107:#0 = v108 = v108     App.js [3374->3380] (line 96)
+BB31
+100   v90 = invoke v91@100 v94,v95,v104 exception:v109App.js [2977->3385] (line 84)
+BB32
+101   lexical:handleSubmit@LApp.js/App = v90 App.js [2958->3386] (line 84)
+102   v113 = lexical:_jsxRuntime@LApp.js     App.js [3400->3411] (line 98)
+103   check v113                             App.js [3400->3411] (line 98)
+BB33
+105   v59 = prototype_values(v113)           App.js [3400->3416] (line 98)
+106   v111 = getfield < JavaScriptLoader, LRoot, jsxs, <JavaScriptLoader,LRoot> > v59App.js [3400->3416] (line 98)
+BB34
+107   v116 = global:global __WALA__int3rnal__globalApp.js [3396->4288] (line 98)
+108   v119 = lexical:_reactNative@LApp.js    App.js [3418->3430] (line 98)
+109   check v119                             App.js [3418->3430] (line 98)
+BB35
+111   v66 = prototype_values(v119)           App.js [3418->3435] (line 98)
+112   v117 = getfield < JavaScriptLoader, LRoot, View, <JavaScriptLoader,LRoot> > v66App.js [3418->3435] (line 98)
+BB36
+113   v123 = global:global Object            App.js [3437->4287] (line 98)
+114   check v123                             App.js [3437->4287] (line 98)
+BB37
+115   v122 = construct v123@115 exception:v124App.js [3437->4287] (line 98)
+BB38
+116   v128 = lexical:styles@LApp.js          App.js [3450->3456] (line 99)
+117   check v128                             App.js [3450->3456] (line 99)
+BB39
+119   v70 = prototype_values(v128)           App.js [3450->3466] (line 99)
+120   v126 = getfield < JavaScriptLoader, LRoot, container, <JavaScriptLoader,LRoot> > v70App.js [3450->3466] (line 99)
+BB40
+121   fieldref v122.v125:#style = v126 = v126App.js [3437->4287] (line 98)
+BB41
+122   v133 = global:global Array             App.js [3482->4282] (line 100)
+123   check v133                             App.js [3482->4282] (line 100)
+BB42
+124   v132 = construct v133@124 exception:v134App.js [3482->4282] (line 100)
+BB43
+125   v137 = lexical:_jsxRuntime@LApp.js     App.js [3494->3505] (line 101)
+126   check v137                             App.js [3494->3505] (line 101)
+BB44
+128   v72 = prototype_values(v137)           App.js [3494->3509] (line 101)
+129   v136 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > v72App.js [3494->3509] (line 101)
+BB45
+130   v140 = global:global __WALA__int3rnal__globalApp.js [3490->3689] (line 101)
+131   v142 = lexical:_reactNative@LApp.js    App.js [3511->3523] (line 101)
+132   check v142                             App.js [3511->3523] (line 101)
+BB46
+134   v77 = prototype_values(v142)           App.js [3511->3533] (line 101)
+135   v141 = getfield < JavaScriptLoader, LRoot, TextInput, <JavaScriptLoader,LRoot> > v77App.js [3511->3533] (line 101)
+BB47
+136   v146 = global:global Object            App.js [3535->3688] (line 101)
+137   check v146                             App.js [3535->3688] (line 101)
+BB48
+138   v145 = construct v146@138 exception:v147App.js [3535->3688] (line 101)
+BB49
+139   fieldref v145.v148:#placeholder = v149:#Username = v149:#UsernameApp.js [3535->3688] (line 101)
+BB50
+140   v152 = lexical:form@LApp.js/App        App.js [3585->3589] (line 103)
+142   v93 = prototype_values(v152)           App.js [3585->3598] (line 103)
+143   v151 = getfield < JavaScriptLoader, LRoot, username, <JavaScriptLoader,LRoot> > v93App.js [3585->3598] (line 103)
+BB51
+144   fieldref v145.v150:#value = v151 = v151App.js [3535->3688] (line 101)
+BB52
+145   v155 = lexical:styles@LApp.js          App.js [3615->3621] (line 104)
+146   check v155                             App.js [3615->3621] (line 104)
+BB53
+148   v115 = prototype_values(v155)          App.js [3615->3631] (line 104)
+149   v154 = getfield < JavaScriptLoader, LRoot, textInput, <JavaScriptLoader,LRoot> > v115App.js [3615->3631] (line 104)
+BB54
+150   fieldref v145.v125:#style = v154 = v154App.js [3535->3688] (line 101)
+BB55
+151   v160 = global:global __WALA__int3rnal__globalApp.js [3655->3679] (line 105)
+152   v159 = invoke v73@152 v160,v38:#username exception:v161App.js [3655->3679] (line 105) [73=[handleChange]]
+BB56
+153   fieldref v145.v158:#onChangeText = v159 = v159App.js [3535->3688] (line 101)
+BB57
+154   v135 = invoke v136@154 v140,v141,v145 exception:v162App.js [3490->3689] (line 101)
+BB58
+155   fieldref v132.v107:#0 = v135 = v135    App.js [3482->4282] (line 100)
+BB59
+156   v166 = lexical:_jsxRuntime@LApp.js     App.js [3701->3712] (line 107)
+157   check v166                             App.js [3701->3712] (line 107)
+BB60
+159   v121 = prototype_values(v166)          App.js [3701->3716] (line 107)
+160   v165 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > v121App.js [3701->3716] (line 107)
+BB61
+161   v168 = global:global __WALA__int3rnal__globalApp.js [3697->3927] (line 107)
+162   v170 = lexical:_reactNative@LApp.js    App.js [3718->3730] (line 107)
+163   check v170                             App.js [3718->3730] (line 107)
+BB62
+165   v130 = prototype_values(v170)          App.js [3718->3740] (line 107)
+166   v169 = getfield < JavaScriptLoader, LRoot, TextInput, <JavaScriptLoader,LRoot> > v130App.js [3718->3740] (line 107)
+BB63
+167   v173 = global:global Object            App.js [3742->3926] (line 107)
+168   check v173                             App.js [3742->3926] (line 107)
+BB64
+169   v172 = construct v173@169 exception:v174App.js [3742->3926] (line 107)
+BB65
+170   fieldref v172.v148:#placeholder = v175:#Password = v175:#PasswordApp.js [3742->3926] (line 107)
+BB66
+171   v177 = lexical:form@LApp.js/App        App.js [3792->3796] (line 109)
+173   v139 = prototype_values(v177)          App.js [3792->3805] (line 109)
+174   v176 = getfield < JavaScriptLoader, LRoot, password, <JavaScriptLoader,LRoot> > v139App.js [3792->3805] (line 109)
+BB67
+175   fieldref v172.v150:#value = v176 = v176App.js [3742->3926] (line 107)
+BB68
+176   v180 = lexical:styles@LApp.js          App.js [3822->3828] (line 110)
+177   check v180                             App.js [3822->3828] (line 110)
+BB69
+179   v144 = prototype_values(v180)          App.js [3822->3838] (line 110)
+180   v179 = getfield < JavaScriptLoader, LRoot, textInput, <JavaScriptLoader,LRoot> > v144App.js [3822->3838] (line 110)
+BB70
+181   fieldref v172.v125:#style = v179 = v179App.js [3742->3926] (line 107)
+BB71
+182   v183 = global:global __WALA__int3rnal__globalApp.js [3862->3886] (line 111)
+183   v182 = invoke v73@183 v183,v40:#password exception:v184App.js [3862->3886] (line 111) [73=[handleChange]]
+BB72
+184   fieldref v172.v158:#onChangeText = v182 = v182App.js [3742->3926] (line 107)
+BB73
+185   fieldref v172.v185:#secureTextEntry = v186:#true = v186:#trueApp.js [3742->3926] (line 107)
+BB74
+186   v164 = invoke v165@186 v168,v169,v172 exception:v187App.js [3697->3927] (line 107)
+BB75
+187   fieldref v132.v163:#1 = v164 = v164    App.js [3482->4282] (line 100)
+BB76
+188   v191 = lexical:_jsxRuntime@LApp.js     App.js [3939->3950] (line 114)
+189   check v191                             App.js [3939->3950] (line 114)
+BB77
+191   v153 = prototype_values(v191)          App.js [3939->3954] (line 114)
+192   v190 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > v153App.js [3939->3954] (line 114)
+BB78
+193   v193 = global:global __WALA__int3rnal__globalApp.js [3935->4275] (line 114)
+194   v195 = lexical:_reactNative@LApp.js    App.js [3956->3968] (line 114)
+195   check v195                             App.js [3956->3968] (line 114)
+BB79
+197   v157 = prototype_values(v195)          App.js [3956->3985] (line 114)
+198   v194 = getfield < JavaScriptLoader, LRoot, TouchableOpacity, <JavaScriptLoader,LRoot> > v157App.js [3956->3985] (line 114)
+BB80
+199   v199 = global:global Object            App.js [3987->4274] (line 114)
+200   check v199                             App.js [3987->4274] (line 114)
+BB81
+201   v198 = construct v199@201 exception:v200App.js [3987->4274] (line 114)
+BB82
+202   conditional branch(eq, to iindex=210) v69,v202:#0App.js [4004->4051] (line 115) [69=[loading]]
+BB83
+203   v204 = lexical:styles@LApp.js          App.js [4014->4020] (line 115)
+204   check v204                             App.js [4014->4020] (line 115)
+BB84
+206   v167 = prototype_values(v204)          App.js [4014->4035] (line 115)
+207   v203 = getfield < JavaScriptLoader, LRoot, buttonDisabled, <JavaScriptLoader,LRoot> > v167App.js [4014->4035] (line 115)
+BB85
+209   goto (from iindex= 209 to iindex = 216)App.js [4004->4051] (line 115)
+BB86
+210   v208 = lexical:styles@LApp.js          App.js [4038->4044] (line 115)
+211   check v208                             App.js [4038->4044] (line 115)
+BB87
+213   v171 = prototype_values(v208)          App.js [4038->4051] (line 115)
+214   v207 = getfield < JavaScriptLoader, LRoot, button, <JavaScriptLoader,LRoot> > v171App.js [4038->4051] (line 115)
+BB88
+BB89
+           v178 = phi  v203,v207
+216   fieldref v198.v125:#style = v178 = v178App.js [3987->4274] (line 114)
+BB90
+217   v215 = global:global Function          App.js [3987->4274] (line 114)
+218   v212 = construct v215@218 v214:#LApp.js/App/onPress exception:v213App.js [3987->4274] (line 114)
+219   fieldref v198.v211:#onPress = v212 = v212App.js [3987->4274] (line 114)
+BB91
+220   fieldref v198.v216:#disabled = v69 = v69App.js [3987->4274] (line 114) [69=[loading]]
+BB92
+221   v219 = lexical:_jsxRuntime@LApp.js     App.js [4188->4199] (line 120)
+222   check v219                             App.js [4188->4199] (line 120)
+BB93
+224   v181 = prototype_values(v219)          App.js [4188->4203] (line 120)
+225   v218 = getfield < JavaScriptLoader, LRoot, jsx, <JavaScriptLoader,LRoot> > v181App.js [4188->4203] (line 120)
+BB94
+226   v221 = global:global __WALA__int3rnal__globalApp.js [4184->4265] (line 120)
+227   v223 = lexical:_reactNative@LApp.js    App.js [4205->4217] (line 120)
+228   check v223                             App.js [4205->4217] (line 120)
+BB95
+230   v192 = prototype_values(v223)          App.js [4205->4222] (line 120)
+231   v222 = getfield < JavaScriptLoader, LRoot, Text, <JavaScriptLoader,LRoot> > v192App.js [4205->4222] (line 120)
+BB96
+232   v227 = global:global Object            App.js [4224->4264] (line 120)
+233   check v227                             App.js [4224->4264] (line 120)
+BB97
+234   v226 = construct v227@234 exception:v228App.js [4224->4264] (line 120)
+BB98
+235   fieldref v226.v131:#children = v229:#Login = v229:#LoginApp.js [4224->4264] (line 120)
+BB99
+236   v217 = invoke v218@236 v221,v222,v226 exception:v230App.js [4184->4265] (line 120)
+BB100
+237   fieldref v198.v131:#children = v217 = v217App.js [3987->4274] (line 114)
+BB101
+238   v189 = invoke v190@238 v193,v194,v198 exception:v231App.js [3935->4275] (line 114)
+BB102
+239   fieldref v132.v188:#2 = v189 = v189    App.js [3482->4282] (line 100)
+BB103
+240   fieldref v122.v131:#children = v132 = v132App.js [3437->4287] (line 98)
+BB104
+241   v110 = invoke v111@241 v116,v117,v122 exception:v232App.js [3396->4288] (line 98)
+BB105
+242   return v110                            App.js [3389->4289] (line 98)
+BB106
+
+<Code body of function LApp.js/_objectSpread/App.js@1913>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..2]
+    -> BB2
+    -> BB7
+BB2[3..5]
+    -> BB3
+    -> BB7
+BB3[6..8]
+    -> BB4
+    -> BB7
+BB4[9..10]
+    -> BB5
+    -> BB7
+BB5[11..13]
+    -> BB6
+    -> BB7
+BB6[14..14]
+    -> BB7
+BB7[-1..-2]
+Instructions:
+BB0
+BB1
+0   v4 = new <JavaScriptLoader,LArray>@0     App.js [1913->1990] (line 53) [4=[arguments]]
+1   v9 = lexical:_defineProperty2@LApp.js    App.js [1942->1958] (line 54)
+2   check v9                                 App.js [1942->1958] (line 54)
+BB2
+4   v11 = prototype_values(v9)               App.js [1942->1966] (line 54)
+5   v7 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > v11App.js [1942->1966] (line 54)
+BB3
+6   v13 = global:global __WALA__int3rnal__globalApp.js [1938->1979] (line 54)
+7   v15 = lexical:e@LApp.js/_objectSpread    App.js [1968->1969] (line 54)
+8   check v15                                App.js [1968->1969] (line 54)
+BB4
+9   v18 = lexical:t@LApp.js/_objectSpread    App.js [1974->1975] (line 54)
+10   check v18                               App.js [1974->1975] (line 54)
+BB5
+12   v19 = prototype_values(v18)             App.js [1974->1978] (line 54)
+13   v16 = fieldref v19.v3                   App.js [1974->1978] (line 54) [3=[r]]
+BB6
+14   v5 = invoke v7@14 v13,v15,v3,v16 exception:v20App.js [1938->1979] (line 54) [3=[r]]
+BB7
+
+<Code body of function LApp.js/_getRequireWildcardCache/_getRequireWildcardCache>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..1]
+    -> BB4
+    -> BB2
+BB2[2..3]
+    -> BB3
+    -> BB7
+BB3[4..5]
+    -> BB6
+BB4[6..7]
+    -> BB5
+    -> BB7
+BB5[8..8]
+    -> BB6
+BB6[9..9]
+    -> BB7
+BB7[-1..-2]
+Instructions:
+BB0
+BB1
+0   v4 = new <JavaScriptLoader,LArray>@0     App.js [723->787] (line 18) [4=[arguments]]
+1   conditional branch(eq, to iindex=6) v3,v6:#0App.js [773->782] (line 19) [3=[e]]
+BB2
+2   v8 = lexical:t@LApp.js/_getRequireWildcardCacheApp.js [777->778] (line 19)
+3   check v8                                 App.js [777->778] (line 19)
+BB3
+5   goto (from iindex= 5 to iindex = 9)      App.js [773->782] (line 19)
+BB4
+6   v10 = lexical:r@LApp.js/_getRequireWildcardCacheApp.js [781->782] (line 19)
+7   check v10                                App.js [781->782] (line 19)
+BB5
+BB6
+           v5 = phi  v8,v10
+9   return v5                                App.js [766->783] (line 19)
+BB7
+
+<Code body of function LApp.js/_getRequireWildcardCache>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..6]
+    -> BB2
+    -> BB10
+BB2[7..9]
+    -> BB4
+    -> BB3
+BB3[10..10]
+    -> BB10
+BB4[11..12]
+    -> BB5
+    -> BB10
+BB5[13..13]
+    -> BB6
+    -> BB10
+BB6[14..16]
+    -> BB7
+    -> BB10
+BB7[17..17]
+    -> BB8
+    -> BB10
+BB8[18..23]
+    -> BB9
+    -> BB10
+BB9[24..24]
+    -> BB10
+BB10[-1..-2]
+Instructions:
+BB0
+BB1
+0   v4 = new <JavaScriptLoader,LArray>@0     App.js [550->794] (line 14) [4=[arguments]]
+1   v6 = global:global $$undefined           App.js [640->685] (line 16)
+2   lexical:r@LApp.js/_getRequireWildcardCache = v6App.js [640->685] (line 16)
+3   v8 = global:global $$undefined           App.js [640->685] (line 16)
+4   lexical:t@LApp.js/_getRequireWildcardCache = v8App.js [640->685] (line 16)
+5   v14 = global:global WeakMap              App.js [616->623] (line 15)
+6   check v14                                App.js [616->623] (line 15)
+BB2
+7   v12 = typeof(v14)                        App.js [609->623] (line 15)
+8   v10 = binaryop(ne) v11:#function , v12   App.js [595->623] (line 15)
+9   conditional branch(eq, to iindex=11) v10,v15:#0App.js [591->637] (line 15)
+BB3
+10   return v16:#null                        App.js [625->637] (line 15)
+BB4
+11   v18 = global:global WeakMap             App.js [652->659] (line 16)
+12   check v18                               App.js [652->659] (line 16)
+BB5
+13   v17 = construct v18@13 exception:v19    App.js [648->661] (line 16)
+BB6
+14   lexical:r@LApp.js/_getRequireWildcardCache = v17App.js [640->685] (line 16)
+15   v21 = global:global WeakMap             App.js [675->682] (line 17)
+16   check v21                               App.js [675->682] (line 17)
+BB7
+17   v20 = construct v21@17 exception:v22    App.js [671->684] (line 17)
+BB8
+18   lexical:t@LApp.js/_getRequireWildcardCache = v20App.js [640->685] (line 16)
+19   v27 = global:global Function            App.js [696->787] (line 18)
+20   v24 = construct v27@20 v26:#LApp.js/_getRequireWildcardCache/_getRequireWildcardCache exception:v25App.js [696->787] (line 18)
+21   global:global _getRequireWildcardCache = v24App.js [696->787] (line 18)
+22   v30 = global:global __WALA__int3rnal__globalApp.js [695->791] (line 20)
+23   v23 = invoke v24@23 v30,v3 exception:v31App.js [695->791] (line 20) [3=[e]]
+BB9
+24   return v23                              App.js [688->792] (line 18)
+BB10
+
+<Code body of function LApp.js/_objectSpread>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..6]
+    -> BB2
+BB2[7..9]
+    -> BB3
+    -> BB35
+BB3[10..11]
+    -> BB34
+    -> BB4
+BB4[12..14]
+    -> BB5
+    -> BB35
+BB5[15..16]
+    -> BB8
+    -> BB6
+BB6[17..19]
+    -> BB7
+    -> BB35
+BB7[20..21]
+    -> BB11
+BB8[22..23]
+    -> BB9
+    -> BB35
+BB9[24..24]
+    -> BB10
+    -> BB35
+BB10[25..25]
+    -> BB11
+BB11[26..28]
+    -> BB18
+    -> BB12
+BB12[29..32]
+    -> BB13
+    -> BB35
+BB13[33..35]
+    -> BB14
+    -> BB35
+BB14[36..38]
+    -> BB15
+    -> BB35
+BB15[39..40]
+    -> BB16
+    -> BB35
+BB16[41..45]
+    -> BB17
+    -> BB35
+BB17[46..47]
+    -> BB33
+BB18[48..49]
+    -> BB19
+    -> BB35
+BB19[50..52]
+    -> BB20
+    -> BB35
+BB20[53..53]
+    -> BB26
+    -> BB21
+BB21[54..57]
+    -> BB22
+    -> BB35
+BB22[58..64]
+    -> BB23
+    -> BB35
+BB23[65..68]
+    -> BB24
+    -> BB35
+BB24[69..69]
+    -> BB25
+    -> BB35
+BB25[70..71]
+    -> BB32
+BB26[72..75]
+    -> BB27
+    -> BB35
+BB27[76..78]
+    -> BB28
+    -> BB35
+BB28[79..81]
+    -> BB29
+    -> BB35
+BB29[82..82]
+    -> BB30
+    -> BB35
+BB30[83..87]
+    -> BB31
+    -> BB35
+BB31[88..88]
+    -> BB32
+BB32[89..89]
+    -> BB33
+BB33[90..93]
+    -> BB2
+BB34[94..95]
+    -> BB35
+BB35[-1..-2]
+Instructions:
+BB0
+BB1
+0   lexical:e@LApp.js/_objectSpread = v3     App.js [1735->2262] (line 49) [3=[e]]
+1   v4 = new <JavaScriptLoader,LArray>@1     App.js [1735->2262] (line 49) [4=[arguments]]
+2   v6 = global:global $$undefined           App.js [1770->1779] (line 50) [6=[r]]
+4   v8 = global:global $$undefined           App.js [1814->1863] (line 51)
+5   lexical:t@LApp.js/_objectSpread = v8     App.js [1814->1863] (line 51)
+BB2
+           v7 = phi  v91,v10:#1.0
+8   v14 = prototype_values(v4)               App.js [1785->1801] (line 50) [4=[arguments]]
+9   v12 = getfield < JavaScriptLoader, LRoot, length, <JavaScriptLoader,LRoot> > v14App.js [1785->1801] (line 50)
+BB3
+10   v11 = binaryop(lt) v7 , v12             App.js [1781->1801] (line 50) [7=[r]]
+11   conditional branch(eq, to iindex=94) v11,v15:#0App.js [1765->2248] (line 50)
+BB4
+13   v16 = prototype_values(v4)              App.js [1830->1842] (line 51) [4=[arguments]]
+14   v19 = fieldref v16.v7                   App.js [1830->1842] (line 51) [7=[r]]
+BB5
+15   v17 = binaryop(ne) v18:#null , v19      App.js [1822->1842] (line 51) [18=[$$destructure$elt31]]
+16   conditional branch(eq, to iindex=22) v17,v15:#0App.js [1822->1862] (line 51)
+BB6
+18   v20 = prototype_values(v4)              App.js [1845->1857] (line 51) [4=[arguments]]
+19   v21 = fieldref v20.v7                   App.js [1845->1857] (line 51) [7=[r]]
+BB7
+21   goto (from iindex= 21 to iindex = 26)   App.js [1822->1862] (line 51)
+BB8
+22   v25 = global:global Object              App.js [1860->1862] (line 51)
+23   check v25                               App.js [1860->1862] (line 51)
+BB9
+24   v23 = construct v25@24 exception:v26    App.js [1860->1862] (line 51)
+BB10
+BB11
+           v22 = phi  v21,v23
+26   lexical:t@LApp.js/_objectSpread = v22   App.js [1814->1863] (line 51)
+27   v28 = binaryop(rem) v7 , v29:#2.0       App.js [1868->1873] (line 52) [7=[r]]
+28   conditional branch(eq, to iindex=48) v28,v15:#0App.js [1868->2243] (line 53)
+BB12
+31   v34 = global:global ownKeys             App.js [1882->1889] (line 53)
+32   check v34                               App.js [1882->1889] (line 53)
+BB13
+33   v36 = global:global __WALA__int3rnal__globalApp.js [1882->1904] (line 53)
+34   v38 = global:global Object              App.js [1890->1896] (line 53)
+35   check v38                               App.js [1890->1896] (line 53)
+BB14
+36   v39 = global:global __WALA__int3rnal__globalApp.js [1890->1899] (line 53)
+37   v40 = lexical:t@LApp.js/_objectSpread   App.js [1897->1898] (line 53)
+38   v37 = invoke v38@38 v39,v40 exception:v41App.js [1890->1899] (line 53)
+BB15
+39   v42 = neg v43:#0.0                      App.js [1901->1903] (line 53)
+40   v32 = invoke v34@40 v36,v37,v42 exception:v44App.js [1882->1904] (line 53) [32=[$$destructure$rcvr25]]
+BB16
+43   v50 = global:global Function            App.js [1882->1991] (line 53)
+44   v47 = construct v50@44 v49:#LApp.js/_objectSpread/App.js@1913 exception:v48App.js [1882->1991] (line 53)
+45   v46 = dispatch v45:#forEach@45 v32,v47 exception:v52App.js [1882->1991] (line 53) [45=[$$destructure$elt31]32=[$$destructure$rcvr25]]
+BB17
+47   goto (from iindex= 47 to iindex = 90)   App.js [1868->2243] (line 53)
+BB18
+48   v55 = global:global Object              App.js [2000->2006] (line 56)
+49   check v55                               App.js [2000->2006] (line 56)
+BB19
+51   v27 = prototype_values(v55)             App.js [2000->2032] (line 56)
+52   v54 = getfield < JavaScriptLoader, LRoot, getOwnPropertyDescriptors, <JavaScriptLoader,LRoot> > v27App.js [2000->2032] (line 56)
+BB20
+53   conditional branch(eq, to iindex=72) v54,v15:#0App.js [2000->2243] (line 57)
+BB21
+56   v60 = global:global Object              App.js [2041->2047] (line 57) [60=[$$destructure$rcvr29]]
+57   check v60                               App.js [2041->2047] (line 57) [60=[$$destructure$rcvr29]]
+BB22
+60   v63 = lexical:e@LApp.js/_objectSpread   App.js [2065->2066] (line 57)
+63   v66 = global:global Object              App.js [2068->2074] (line 57) [66=[$$destructure$rcvr30]]
+64   check v66                               App.js [2068->2074] (line 57) [66=[$$destructure$rcvr30]]
+BB23
+67   v68 = lexical:t@LApp.js/_objectSpread   App.js [2101->2102] (line 57)
+68   v67 = dispatch v56:#getOwnPropertyDescriptors@68 v66,v68 exception:v69App.js [2068->2103] (line 57) [56=[$$destructure$elt30]66=[$$destructure$rcvr30]]
+BB24
+69   v62 = dispatch v61:#defineProperties@69 v60,v63,v67 exception:v70App.js [2041->2104] (line 57) [61=[$$destructure$elt29]60=[$$destructure$rcvr29]]
+BB25
+71   goto (from iindex= 71 to iindex = 89)   App.js [2000->2243] (line 57)
+BB26
+74   v74 = global:global ownKeys             App.js [2113->2120] (line 58)
+75   check v74                               App.js [2113->2120] (line 58)
+BB27
+76   v75 = global:global __WALA__int3rnal__globalApp.js [2113->2131] (line 58)
+77   v77 = global:global Object              App.js [2121->2127] (line 58)
+78   check v77                               App.js [2121->2127] (line 58)
+BB28
+79   v78 = global:global __WALA__int3rnal__globalApp.js [2121->2130] (line 58)
+80   v79 = lexical:t@LApp.js/_objectSpread   App.js [2128->2129] (line 58)
+81   v76 = invoke v77@81 v78,v79 exception:v80App.js [2121->2130] (line 58)
+BB29
+82   v73 = invoke v74@82 v75,v76 exception:v81App.js [2113->2131] (line 58) [73=[$$destructure$rcvr31]]
+BB30
+85   v86 = global:global Function            App.js [2113->2243] (line 58)
+86   v83 = construct v86@86 v85:#LApp.js/_objectSpread/App.js@2140 exception:v84App.js [2113->2243] (line 58)
+87   v82 = dispatch v45:#forEach@87 v73,v83 exception:v87App.js [2113->2243] (line 58) [45=[$$destructure$elt31]73=[$$destructure$rcvr31]]
+BB31
+BB32
+           v30 = phi  v62,v82
+BB33
+91   v91 = binaryop(add) v7 , v89:#1         App.js [1803->1806] (line 50) [91=[r]7=[r]]
+93   goto (from iindex= 93 to iindex = 7)    App.js [1765->2248] (line 50)
+BB34
+94   v93 = lexical:e@LApp.js/_objectSpread   App.js [2258->2259] (line 62)
+95   return v93                              App.js [2251->2260] (line 62)
+BB35
+
+<Code body of function LApp.js/App/App.js@3006/App.js@3115>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..4]
+    -> BB2
+    -> BB3
+BB2[5..8]
+    -> BB3
+BB3[-1..-2]
+Instructions:
+BB0
+BB1
+0   lexical:resolve@LApp.js/App/App.js@3006/App.js@3115 = v3App.js [3115->3360] (line 88) [3=[resolve]]
+1   lexical:reject@LApp.js/App/App.js@3006/App.js@3115 = v4App.js [3115->3360] (line 88) [4=[reject]]
+2   v5 = new <JavaScriptLoader,LArray>@2     App.js [3115->3360] (line 88) [5=[arguments]]
+3   v8 = global:global setTimeout            App.js [3152->3162] (line 89)
+4   check v8                                 App.js [3152->3162] (line 89)
+BB2
+5   v10 = global:global __WALA__int3rnal__globalApp.js [3152->3351] (line 89)
+6   v14 = global:global Function             App.js [3152->3351] (line 89)
+7   v11 = construct v14@7 v13:#LApp.js/App/App.js@3006/App.js@3115/App.js@3163 exception:v12App.js [3152->3351] (line 89)
+8   v6 = invoke v8@8 v10,v11,v18:#1500.0 exception:v19App.js [3152->3351] (line 89)
+BB3
+
+<Code body of function LApp.js/App/App.js@2684/App.js@2718/App.js@2758>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..2]
+    -> BB2
+    -> BB17
+BB2[3..5]
+    -> BB3
+    -> BB17
+BB3[6..8]
+    -> BB4
+    -> BB17
+BB4[9..9]
+    -> BB5
+    -> BB17
+BB5[10..10]
+    -> BB6
+    -> BB17
+BB6[11..12]
+    -> BB7
+    -> BB17
+BB7[13..13]
+    -> BB8
+    -> BB17
+BB8[14..15]
+    -> BB9
+    -> BB17
+BB9[16..18]
+    -> BB10
+    -> BB17
+BB10[19..21]
+    -> BB11
+    -> BB17
+BB11[22..22]
+    -> BB12
+    -> BB17
+BB12[23..24]
+    -> BB13
+    -> BB17
+BB13[25..26]
+    -> BB14
+    -> BB17
+BB14[27..27]
+    -> BB15
+    -> BB17
+BB15[28..28]
+    -> BB16
+    -> BB17
+BB16[29..29]
+    -> BB17
+BB17[-1..-2]
+Instructions:
+BB0
+BB1
+0   v4 = new <JavaScriptLoader,LArray>@0     App.js [2758->2936] (line 75) [4=[arguments]]
+1   v7 = global:global _objectSpread         App.js [2791->2804] (line 76)
+2   check v7                                 App.js [2791->2804] (line 76)
+BB2
+3   v9 = global:global __WALA__int3rnal__globalApp.js [2791->2927] (line 76)
+4   v11 = global:global _objectSpread        App.js [2816->2829] (line 77)
+5   check v11                                App.js [2816->2829] (line 77)
+BB3
+6   v12 = global:global __WALA__int3rnal__globalApp.js [2816->2839] (line 77)
+7   v15 = global:global Object               App.js [2830->2832] (line 77)
+8   check v15                                App.js [2830->2832] (line 77)
+BB4
+9   v13 = construct v15@9 exception:v16      App.js [2830->2832] (line 77)
+BB5
+10   v10 = invoke v11@10 v12,v13,v3 exception:v17App.js [2816->2839] (line 77) [3=[form]]
+BB6
+11   v19 = global:global Object              App.js [2851->2853] (line 78)
+12   check v19                               App.js [2851->2853] (line 78)
+BB7
+13   v18 = construct v19@13 exception:v20    App.js [2851->2853] (line 78)
+BB8
+14   v25 = lexical:_defineProperty2@LApp.js  App.js [2869->2885] (line 79)
+15   check v25                               App.js [2869->2885] (line 79)
+BB9
+17   v27 = prototype_values(v25)             App.js [2869->2893] (line 79)
+18   v23 = getfield < JavaScriptLoader, LRoot, default, <JavaScriptLoader,LRoot> > v27App.js [2869->2893] (line 79)
+BB10
+19   v28 = global:global __WALA__int3rnal__globalApp.js [2865->2916] (line 79)
+20   v30 = global:global Object              App.js [2895->2897] (line 79)
+21   check v30                               App.js [2895->2897] (line 79)
+BB11
+22   v29 = construct v30@22 exception:v31    App.js [2895->2897] (line 79)
+BB12
+23   v33 = lexical:fieldName@LApp.js/App/App.js@2684App.js [2899->2908] (line 79)
+24   check v33                               App.js [2899->2908] (line 79)
+BB13
+25   v35 = lexical:value@LApp.js/App/App.js@2684/App.js@2718App.js [2910->2915] (line 79)
+26   check v35                               App.js [2910->2915] (line 79)
+BB14
+27   v21 = invoke v23@27 v28,v29,v33,v35 exception:v36App.js [2865->2916] (line 79)
+BB15
+28   v5 = invoke v7@28 v9,v10,v18,v21 exception:v37App.js [2791->2927] (line 76)
+BB16
+29   return v5                               App.js [2784->2928] (line 76)
+BB17
+
+<Code body of function LApp.js>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..31]
+    -> BB2
+    -> BB75
+BB2[32..33]
+    -> BB3
+    -> BB75
+BB3[34..38]
+    -> BB4
+    -> BB75
+BB4[39..42]
+    -> BB5
+    -> BB75
+BB5[43..44]
+    -> BB6
+    -> BB75
+BB6[45..45]
+    -> BB7
+    -> BB75
+BB7[46..46]
+    -> BB8
+    -> BB75
+BB8[47..47]
+    -> BB9
+    -> BB75
+BB9[48..49]
+    -> BB10
+    -> BB75
+BB10[50..51]
+    -> BB11
+    -> BB75
+BB11[52..52]
+    -> BB12
+    -> BB75
+BB12[53..55]
+    -> BB13
+    -> BB75
+BB13[56..57]
+    -> BB14
+    -> BB75
+BB14[58..58]
+    -> BB15
+    -> BB75
+BB15[59..62]
+    -> BB16
+    -> BB75
+BB16[63..64]
+    -> BB17
+    -> BB75
+BB17[65..65]
+    -> BB18
+    -> BB75
+BB18[66..68]
+    -> BB19
+    -> BB75
+BB19[69..70]
+    -> BB20
+    -> BB75
+BB20[71..72]
+    -> BB21
+    -> BB75
+BB21[73..75]
+    -> BB22
+    -> BB75
+BB22[76..77]
+    -> BB23
+    -> BB75
+BB23[78..78]
+    -> BB24
+    -> BB75
+BB24[79..81]
+    -> BB25
+    -> BB75
+BB25[82..83]
+    -> BB26
+    -> BB75
+BB26[84..86]
+    -> BB27
+    -> BB75
+BB27[87..88]
+    -> BB28
+    -> BB75
+BB28[89..95]
+    -> BB29
+    -> BB75
+BB29[96..99]
+    -> BB30
+    -> BB75
+BB30[100..100]
+    -> BB31
+    -> BB75
+BB31[101..102]
+    -> BB32
+    -> BB75
+BB32[103..103]
+    -> BB33
+    -> BB75
+BB33[104..104]
+    -> BB34
+    -> BB75
+BB34[105..105]
+    -> BB35
+    -> BB75
+BB35[106..106]
+    -> BB36
+    -> BB75
+BB36[107..107]
+    -> BB37
+    -> BB75
+BB37[108..108]
+    -> BB38
+    -> BB75
+BB38[109..109]
+    -> BB39
+    -> BB75
+BB39[110..111]
+    -> BB40
+    -> BB75
+BB40[112..112]
+    -> BB41
+    -> BB75
+BB41[113..113]
+    -> BB42
+    -> BB75
+BB42[114..114]
+    -> BB43
+    -> BB75
+BB43[115..115]
+    -> BB44
+    -> BB75
+BB44[116..116]
+    -> BB45
+    -> BB75
+BB45[117..117]
+    -> BB46
+    -> BB75
+BB46[118..118]
+    -> BB47
+    -> BB75
+BB47[119..119]
+    -> BB48
+    -> BB75
+BB48[120..120]
+    -> BB49
+    -> BB75
+BB49[121..122]
+    -> BB50
+    -> BB75
+BB50[123..123]
+    -> BB51
+    -> BB75
+BB51[124..124]
+    -> BB52
+    -> BB75
+BB52[125..125]
+    -> BB53
+    -> BB75
+BB53[126..126]
+    -> BB54
+    -> BB75
+BB54[127..127]
+    -> BB55
+    -> BB75
+BB55[128..128]
+    -> BB56
+    -> BB75
+BB56[129..129]
+    -> BB57
+    -> BB75
+BB57[130..130]
+    -> BB58
+    -> BB75
+BB58[131..131]
+    -> BB59
+    -> BB75
+BB59[132..132]
+    -> BB60
+    -> BB75
+BB60[133..133]
+    -> BB61
+    -> BB75
+BB61[134..135]
+    -> BB62
+    -> BB75
+BB62[136..136]
+    -> BB63
+    -> BB75
+BB63[137..137]
+    -> BB64
+    -> BB75
+BB64[138..138]
+    -> BB65
+    -> BB75
+BB65[139..139]
+    -> BB66
+    -> BB75
+BB66[140..140]
+    -> BB67
+    -> BB75
+BB67[141..141]
+    -> BB68
+    -> BB75
+BB68[142..142]
+    -> BB69
+    -> BB75
+BB69[143..143]
+    -> BB70
+    -> BB75
+BB70[144..144]
+    -> BB71
+    -> BB75
+BB71[145..145]
+    -> BB72
+    -> BB75
+BB72[146..146]
+    -> BB73
+    -> BB75
+BB73[147..147]
+    -> BB74
+    -> BB75
+BB74[148..148]
+    -> BB75
+BB75[-1..-2]
+Instructions:
+BB0
+BB1
+0   v1 = new <JavaScriptLoader,LArray>@0     App.js [0->5125] (line 1) [1=[arguments]]
+1   v3 = global:global $$undefined           App.js [0->85] (line 1) [3=[_interopRequireDefault]]
+3   v5 = global:global $$undefined           App.js [172->273] (line 4)
+4   lexical:_defineProperty2@LApp.js = v5    App.js [172->273] (line 4)
+5   v7 = global:global $$undefined           App.js [274->373] (line 7)
+6   lexical:_slicedToArray2@LApp.js = v7     App.js [274->373] (line 7)
+7   v9 = global:global $$undefined           App.js [402->457] (line 11)
+8   lexical:_react@LApp.js = v9              App.js [402->457] (line 11)
+9   v11 = global:global $$undefined          App.js [458->501] (line 12)
+10   lexical:_reactNative@LApp.js = v11      App.js [458->501] (line 12)
+11   v13 = global:global $$undefined         App.js [502->549] (line 13)
+12   lexical:_jsxRuntime@LApp.js = v13       App.js [502->549] (line 13)
+13   v18 = global:global Function            App.js [0->5125] (line 1)
+14   v15 = construct v18@14 v17:#LApp.js/_getRequireWildcardCache exception:v16App.js [0->5125] (line 1)
+15   global:global _getRequireWildcardCache = v15App.js [0->5125] (line 1)
+16   v23 = global:global Function            App.js [0->5125] (line 1)
+17   v20 = construct v23@17 v22:#LApp.js/_interopRequireWildcard exception:v21App.js [0->5125] (line 1)
+18   global:global _interopRequireWildcard = v20App.js [0->5125] (line 1)
+19   v28 = global:global Function            App.js [0->5125] (line 1)
+20   v25 = construct v28@20 v27:#LApp.js/ownKeys exception:v26App.js [0->5125] (line 1)
+21   global:global ownKeys = v25             App.js [0->5125] (line 1)
+22   v33 = global:global Function            App.js [0->5125] (line 1)
+23   v30 = construct v33@23 v32:#LApp.js/_objectSpread exception:v31App.js [0->5125] (line 1)
+24   global:global _objectSpread = v30       App.js [0->5125] (line 1)
+25   v38 = global:global Function            App.js [0->5125] (line 1)
+26   v35 = construct v38@26 v37:#LApp.js/App exception:v36App.js [0->5125] (line 1)
+27   global:global App = v35                 App.js [0->5125] (line 1)
+28   v40 = global:global $$undefined         App.js [4292->5125] (line 127)
+29   lexical:styles@LApp.js = v40            App.js [4292->5125] (line 127)
+30   v44 = global:global require             App.js [29->36] (line 1)
+31   check v44                               App.js [29->36] (line 1)
+BB2
+32   v46 = global:global __WALA__int3rnal__globalApp.js [29->84] (line 1)
+33   v42 = invoke v44@33 v46,v47:#@babel/runtime/helpers/interopRequireDefault exception:v48App.js [29->84] (line 1) [42=[_interopRequireDefault]]
+BB3
+37   v53 = global:global Object              App.js [86->92] (line 2) [53=[$$destructure$rcvr2]]
+38   check v53                               App.js [86->92] (line 2) [53=[$$destructure$rcvr2]]
+BB4
+41   v57 = global:global exports             App.js [108->115] (line 2)
+42   check v57                               App.js [108->115] (line 2)
+BB5
+43   v60 = global:global Object              App.js [131->146] (line 2)
+44   check v60                               App.js [131->146] (line 2)
+BB6
+45   v59 = construct v60@45 exception:v61    App.js [131->146] (line 2)
+BB7
+46   fieldref v59.v62:#value = v63:#true = v63:#trueApp.js [131->146] (line 2)
+BB8
+47   v55 = dispatch v54:#defineProperty@47 v53,v57,v58:#__esModule,v59 exception:v64App.js [86->147] (line 2) [54=[$$destructure$elt2]53=[$$destructure$rcvr2]]
+BB9
+48   v65 = global:global App                 App.js [167->170] (line 3)
+49   check v65                               App.js [167->170] (line 3)
+BB10
+50   v66 = global:global exports             App.js [149->156] (line 3)
+51   check v66                               App.js [149->156] (line 3)
+BB11
+52   fieldref v66.v67:#default = v65 = v65   App.js [149->170] (line 3)
+BB12
+53   v69 = global:global __WALA__int3rnal__globalApp.js [195->272] (line 4)
+54   v71 = global:global require             App.js [221->228] (line 5)
+55   check v71                               App.js [221->228] (line 5)
+BB13
+56   v72 = global:global __WALA__int3rnal__globalApp.js [221->269] (line 5)
+57   v70 = invoke v71@57 v72,v73:#@babel/runtime/helpers/defineProperty exception:v74App.js [221->269] (line 5)
+BB14
+58   v68 = invoke v42@58 v69,v70 exception:v75App.js [195->272] (line 4) [42=[_interopRequireDefault]]
+BB15
+59   lexical:_defineProperty2@LApp.js = v68  App.js [172->273] (line 4)
+60   v77 = global:global __WALA__int3rnal__globalApp.js [296->372] (line 7)
+61   v79 = global:global require             App.js [322->329] (line 8)
+62   check v79                               App.js [322->329] (line 8)
+BB16
+63   v80 = global:global __WALA__int3rnal__globalApp.js [322->369] (line 8)
+64   v78 = invoke v79@64 v80,v81:#@babel/runtime/helpers/slicedToArray exception:v82App.js [322->369] (line 8)
+BB17
+65   v76 = invoke v42@65 v77,v78 exception:v83App.js [296->372] (line 7) [42=[_interopRequireDefault]]
+BB18
+66   lexical:_slicedToArray2@LApp.js = v76   App.js [274->373] (line 7)
+67   v85 = global:global require             App.js [374->381] (line 10)
+68   check v85                               App.js [374->381] (line 10)
+BB19
+69   v86 = global:global __WALA__int3rnal__globalApp.js [374->400] (line 10)
+70   v84 = invoke v85@70 v86,v87:#expo-dev-client exception:v88App.js [374->400] (line 10)
+BB20
+71   v90 = global:global _interopRequireWildcardApp.js [415->438] (line 11)
+72   check v90                               App.js [415->438] (line 11)
+BB21
+73   v91 = global:global __WALA__int3rnal__globalApp.js [415->456] (line 11)
+74   v93 = global:global require             App.js [439->446] (line 11)
+75   check v93                               App.js [439->446] (line 11)
+BB22
+76   v94 = global:global __WALA__int3rnal__globalApp.js [439->455] (line 11)
+77   v92 = invoke v93@77 v94,v95:#react exception:v96App.js [439->455] (line 11)
+BB23
+78   v89 = invoke v90@78 v91,v92 exception:v97App.js [415->456] (line 11)
+BB24
+79   lexical:_react@LApp.js = v89            App.js [402->457] (line 11)
+80   v99 = global:global require             App.js [477->484] (line 12)
+81   check v99                               App.js [477->484] (line 12)
+BB25
+82   v100 = global:global __WALA__int3rnal__globalApp.js [477->500] (line 12)
+83   v98 = invoke v99@83 v100,v101:#react-native exception:v102App.js [477->500] (line 12)
+BB26
+84   lexical:_reactNative@LApp.js = v98      App.js [458->501] (line 12)
+85   v104 = global:global require            App.js [520->527] (line 13)
+86   check v104                              App.js [520->527] (line 13)
+BB27
+87   v105 = global:global __WALA__int3rnal__globalApp.js [520->548] (line 13)
+88   v103 = invoke v104@88 v105,v106:#react/jsx-runtime exception:v107App.js [520->548] (line 13)
+BB28
+89   lexical:_jsxRuntime@LApp.js = v103      App.js [502->549] (line 13)
+92   v111 = lexical:_reactNative@LApp.js     App.js [4305->4317] (line 127)
+94   v4 = prototype_values(v111)             App.js [4305->4328] (line 127)
+95   v110 = getfield < JavaScriptLoader, LRoot, StyleSheet, <JavaScriptLoader,LRoot> > v4App.js [4305->4328] (line 127) [110=[$$destructure$rcvr61]]
+BB29
+98   v117 = global:global Object             App.js [4336->5123] (line 127)
+99   check v117                              App.js [4336->5123] (line 127)
+BB30
+100   v116 = construct v117@100 exception:v118App.js [4336->5123] (line 127)
+BB31
+101   v121 = global:global Object            App.js [4351->4471] (line 128)
+102   check v121                             App.js [4351->4471] (line 128)
+BB32
+103   v120 = construct v121@103 exception:v122App.js [4351->4471] (line 128)
+BB33
+104   fieldref v120.v123:#flex = v124:#1.0 = v124:#1.0App.js [4351->4471] (line 128)
+BB34
+105   fieldref v120.v125:#padding = v126:#16.0 = v126:#16.0App.js [4351->4471] (line 128)
+BB35
+106   fieldref v120.v127:#backgroundColor = v128:##fff = v128:##fffApp.js [4351->4471] (line 128)
+BB36
+107   fieldref v120.v129:#alignItems = v130:#center = v130:#centerApp.js [4351->4471] (line 128)
+BB37
+108   fieldref v120.v131:#justifyContent = v130:#center = v130:#centerApp.js [4351->4471] (line 128)
+BB38
+109   fieldref v116.v119:#container = v120 = v120App.js [4336->5123] (line 127)
+BB39
+110   v134 = global:global Object            App.js [4486->4641] (line 135)
+111   check v134                             App.js [4486->4641] (line 135)
+BB40
+112   v133 = construct v134@112 exception:v135App.js [4486->4641] (line 135)
+BB41
+113   fieldref v133.v136:#height = v137:#40.0 = v137:#40.0App.js [4486->4641] (line 135)
+BB42
+114   fieldref v133.v138:#borderColor = v139:#gray = v139:#grayApp.js [4486->4641] (line 135)
+BB43
+115   fieldref v133.v140:#borderWidth = v124:#1.0 = v124:#1.0App.js [4486->4641] (line 135)
+BB44
+116   fieldref v133.v141:#borderRadius = v142:#4.0 = v142:#4.0App.js [4486->4641] (line 135)
+BB45
+117   fieldref v133.v143:#width = v144:#100% = v144:#100%App.js [4486->4641] (line 135)
+BB46
+118   fieldref v133.v145:#paddingHorizontal = v146:#10.0 = v146:#10.0App.js [4486->4641] (line 135)
+BB47
+119   fieldref v133.v147:#marginBottom = v146:#10.0 = v146:#10.0App.js [4486->4641] (line 135)
+BB48
+120   fieldref v116.v132:#textInput = v133 = v133App.js [4336->5123] (line 127)
+BB49
+121   v150 = global:global Object            App.js [4653->4878] (line 144)
+122   check v150                             App.js [4653->4878] (line 144)
+BB50
+123   v149 = construct v150@123 exception:v151App.js [4653->4878] (line 144)
+BB51
+124   fieldref v149.v129:#alignItems = v130:#center = v130:#centerApp.js [4653->4878] (line 144)
+BB52
+125   fieldref v149.v131:#justifyContent = v130:#center = v130:#centerApp.js [4653->4878] (line 144)
+BB53
+126   fieldref v149.v152:#paddingVertical = v153:#12.0 = v153:#12.0App.js [4653->4878] (line 144)
+BB54
+127   fieldref v149.v145:#paddingHorizontal = v154:#32.0 = v154:#32.0App.js [4653->4878] (line 144)
+BB55
+128   fieldref v149.v141:#borderRadius = v142:#4.0 = v142:#4.0App.js [4653->4878] (line 144)
+BB56
+129   fieldref v149.v155:#elevation = v156:#3.0 = v156:#3.0App.js [4653->4878] (line 144)
+BB57
+130   fieldref v149.v127:#backgroundColor = v157:##2196F3 = v157:##2196F3App.js [4653->4878] (line 144)
+BB58
+131   fieldref v149.v143:#width = v144:#100% = v144:#100%App.js [4653->4878] (line 144)
+BB59
+132   fieldref v149.v147:#marginBottom = v146:#10.0 = v146:#10.0App.js [4653->4878] (line 144)
+BB60
+133   fieldref v116.v148:#button = v149 = v149App.js [4336->5123] (line 127)
+BB61
+134   v160 = global:global Object            App.js [4898->5120] (line 155)
+135   check v160                             App.js [4898->5120] (line 155)
+BB62
+136   v159 = construct v160@136 exception:v161App.js [4898->5120] (line 155)
+BB63
+137   fieldref v159.v129:#alignItems = v130:#center = v130:#centerApp.js [4898->5120] (line 155)
+BB64
+138   fieldref v159.v131:#justifyContent = v130:#center = v130:#centerApp.js [4898->5120] (line 155)
+BB65
+139   fieldref v159.v152:#paddingVertical = v153:#12.0 = v153:#12.0App.js [4898->5120] (line 155)
+BB66
+140   fieldref v159.v145:#paddingHorizontal = v154:#32.0 = v154:#32.0App.js [4898->5120] (line 155)
+BB67
+141   fieldref v159.v141:#borderRadius = v142:#4.0 = v142:#4.0App.js [4898->5120] (line 155)
+BB68
+142   fieldref v159.v155:#elevation = v156:#3.0 = v156:#3.0App.js [4898->5120] (line 155)
+BB69
+143   fieldref v159.v127:#backgroundColor = v162:##ccc = v162:##cccApp.js [4898->5120] (line 155)
+BB70
+144   fieldref v159.v143:#width = v144:#100% = v144:#100%App.js [4898->5120] (line 155)
+BB71
+145   fieldref v159.v147:#marginBottom = v146:#10.0 = v146:#10.0App.js [4898->5120] (line 155)
+BB72
+146   fieldref v116.v158:#buttonDisabled = v159 = v159App.js [4336->5123] (line 127)
+BB73
+147   v115 = dispatch v114:#create@147 v110,v116 exception:v163App.js [4305->5124] (line 127) [114=[$$destructure$elt61]110=[$$destructure$rcvr61]]
+BB74
+148   lexical:styles@LApp.js = v115          App.js [4292->5125] (line 127)
+BB75
+
+<Code body of function LApp.js/ownKeys>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..9]
+    -> BB2
+    -> BB15
+BB2[10..13]
+    -> BB3
+    -> BB15
+BB3[14..16]
+    -> BB4
+    -> BB15
+BB4[17..19]
+    -> BB5
+    -> BB15
+BB5[20..20]
+    -> BB14
+    -> BB6
+BB6[21..24]
+    -> BB7
+    -> BB15
+BB7[25..28]
+    -> BB8
+    -> BB15
+BB8[29..31]
+    -> BB11
+    -> BB9
+BB9[32..38]
+    -> BB10
+    -> BB15
+BB10[39..41]
+    -> BB12
+BB11[42..42]
+    -> BB12
+BB12[43..47]
+    -> BB13
+    -> BB15
+BB13[48..50]
+    -> BB14
+    -> BB15
+BB14[51..51]
+    -> BB15
+BB15[-1..-2]
+Instructions:
+BB0
+BB1
+0   lexical:e@LApp.js/ownKeys = v3           App.js [1437->1734] (line 37) [3=[e]]
+1   v5 = new <JavaScriptLoader,LArray>@1     App.js [1437->1734] (line 37) [5=[arguments]]
+2   v7 = global:global $$undefined           App.js [1464->1487] (line 38) [7=[t]]
+4   v9 = global:global $$undefined           App.js [1530->1570] (line 40) [9=[o, $$destructure$rcvr22]]
+8   v15 = global:global Object               App.js [1472->1478] (line 38) [15=[$$destructure$rcvr20]]
+9   check v15                                App.js [1472->1478] (line 38) [15=[$$destructure$rcvr20]]
+BB2
+12   v18 = lexical:e@LApp.js/ownKeys         App.js [1484->1485] (line 38)
+13   v17 = dispatch v16:#keys@13 v15,v18 exception:v19App.js [1472->1486] (line 38) [17=[t]16=[$$destructure$elt20]15=[$$destructure$rcvr20]]
+BB3
+15   v21 = global:global Object              App.js [1494->1500] (line 39)
+16   check v21                               App.js [1494->1500] (line 39)
+BB4
+18   v8 = prototype_values(v21)              App.js [1494->1522] (line 39)
+19   v20 = getfield < JavaScriptLoader, LRoot, getOwnPropertySymbols, <JavaScriptLoader,LRoot> > v8App.js [1494->1522] (line 39)
+BB5
+20   conditional branch(eq, to iindex=51) v20,v24:#0App.js [1490->1720] (line 39)
+BB6
+23   v27 = global:global Object              App.js [1538->1544] (line 40) [27=[$$destructure$rcvr21]]
+24   check v27                               App.js [1538->1544] (line 40) [27=[$$destructure$rcvr21]]
+BB7
+27   v29 = lexical:e@LApp.js/ownKeys         App.js [1567->1568] (line 40)
+28   v28 = dispatch v22:#getOwnPropertySymbols@28 v27,v29 exception:v30App.js [1538->1569] (line 40) [28=[o, $$destructure$rcvr22]22=[$$destructure$elt21]27=[$$destructure$rcvr21]]
+BB8
+31   conditional branch(eq, to iindex=42) v4,v24:#0App.js [1575->1689] (line 41) [4=[r]]
+BB9
+36   v40 = global:global Function            App.js [1591->1688] (line 42)
+37   v37 = construct v40@37 v39:#LApp.js/ownKeys/App.js@1600 exception:v38App.js [1591->1688] (line 42)
+38   v36 = dispatch v35:#filter@38 v28,v37 exception:v41App.js [1591->1688] (line 42) [35=[$$destructure$elt22]28=[o, $$destructure$rcvr22]]
+BB10
+41   goto (from iindex= 41 to iindex = 43)   App.js [1575->1689] (line 41)
+BB11
+BB12
+           v10 = phi  v36,v28
+46   v12 = prototype_values(v17)             App.js [1697->1703] (line 45) [17=[t]]
+47   v44 = getfield < JavaScriptLoader, LRoot, push, <JavaScriptLoader,LRoot> > v12App.js [1697->1703] (line 45) [44=[$$destructure$rcvr24]]
+BB13
+50   v48 = dispatch v47:#apply@50 v44,v17,v10 exception:v49App.js [1697->1715] (line 45) [47=[$$destructure$elt24]44=[$$destructure$rcvr24]17=[t]10=[o, $$destructure$rcvr22]]
+BB14
+51   return v17                              App.js [1723->1732] (line 47) [17=[t]]
+BB15
+
+<Code body of function LApp.js/App/App.js@2684/App.js@2718>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..3]
+    -> BB2
+    -> BB4
+BB2[4..7]
+    -> BB3
+    -> BB4
+BB3[8..8]
+    -> BB4
+BB4[-1..-2]
+Instructions:
+BB0
+BB1
+0   lexical:value@LApp.js/App/App.js@2684/App.js@2718 = v3App.js [2718->2944] (line 74) [3=[value]]
+1   v4 = new <JavaScriptLoader,LArray>@1     App.js [2718->2944] (line 74) [4=[arguments]]
+2   v7 = lexical:setForm@LApp.js/App         App.js [2750->2757] (line 75)
+3   check v7                                 App.js [2750->2757] (line 75)
+BB2
+4   v9 = global:global __WALA__int3rnal__globalApp.js [2750->2937] (line 75)
+5   v13 = global:global Function             App.js [2750->2937] (line 75)
+6   v10 = construct v13@6 v12:#LApp.js/App/App.js@2684/App.js@2718/App.js@2758 exception:v11App.js [2750->2937] (line 75)
+7   v5 = invoke v7@7 v9,v10 exception:v18    App.js [2750->2937] (line 75)
+BB3
+8   return v5                                App.js [2743->2938] (line 75)
+BB4
+
+<Code body of function LApp.js/App/App.js@3006/App.js@3115/App.js@3163>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..2]
+    -> BB2
+    -> BB12
+BB2[3..4]
+    -> BB3
+    -> BB12
+BB3[5..8]
+    -> BB4
+    -> BB12
+BB4[9..11]
+    -> BB5
+    -> BB12
+BB5[12..14]
+    -> BB10
+    -> BB6
+BB6[15..16]
+    -> BB7
+    -> BB12
+BB7[17..19]
+    -> BB8
+    -> BB12
+BB8[20..20]
+    -> BB9
+    -> BB12
+BB9[21..21]
+    -> BB10
+    -> BB12
+BB10[22..23]
+    -> BB11
+    -> BB12
+BB11[24..25]
+    -> BB12
+BB12[-1..-2]
+Instructions:
+BB0
+BB1
+0   v3 = new <JavaScriptLoader,LArray>@0     App.js [3163->3344] (line 89) [3=[arguments]]
+1   v6 = lexical:resolve@LApp.js/App/App.js@3006/App.js@3115App.js [3187->3194] (line 90)
+2   check v6                                 App.js [3187->3194] (line 90)
+BB2
+3   v8 = global:global __WALA__int3rnal__globalApp.js [3187->3228] (line 90)
+4   v4 = invoke v6@4 v8,v9:#Simulated data from the server exception:v10App.js [3187->3228] (line 90)
+BB3
+7   v17 = global:global Math                 App.js [3244->3248] (line 91) [17=[$$destructure$rcvr50]]
+8   check v17                                App.js [3244->3248] (line 91) [17=[$$destructure$rcvr50]]
+BB4
+11   v19 = dispatch v18:#random@11 v17 exception:v20App.js [3244->3257] (line 91) [18=[$$destructure$elt50]17=[$$destructure$rcvr50]]
+BB5
+12   v12 = binaryop(mul) v19 , v21:#10.0     App.js [3244->3262] (line 91)
+13   v11 = binaryop(lt) v12 , v22:#1.0       App.js [3244->3266] (line 91)
+14   conditional branch(eq, to iindex=22) v11,v23:#0App.js [3240->3305] (line 91)
+BB6
+15   v26 = lexical:reject@LApp.js/App/App.js@3006/App.js@3115App.js [3268->3274] (line 91)
+16   check v26                               App.js [3268->3274] (line 91)
+BB7
+17   v27 = global:global __WALA__int3rnal__globalApp.js [3268->3304] (line 91)
+18   v30 = global:global Error               App.js [3279->3284] (line 91)
+19   check v30                               App.js [3279->3284] (line 91)
+BB8
+20   v28 = construct v30@20 v31:#Simulated error exception:v32App.js [3275->3303] (line 91)
+BB9
+21   v24 = invoke v26@21 v27,v28 exception:v33App.js [3268->3304] (line 91)
+BB10
+22   v36 = lexical:setLoading@LApp.js/App    App.js [3316->3326] (line 92)
+23   check v36                               App.js [3316->3326] (line 92)
+BB11
+24   v37 = global:global __WALA__int3rnal__globalApp.js [3316->3333] (line 92)
+25   v34 = invoke v36@25 v37,v38:#false exception:v39App.js [3316->3333] (line 92)
+BB12
+
+<Code body of function LApp.js/App/App.js@3006>
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..4]
+    -> BB2
+    -> BB9
+BB2[5..8]
+    -> BB3
+    -> BB9
+BB3[9..9]
+    -> BB4
+    -> BB9
+BB4[10..11]
+    -> BB5
+    -> BB9
+BB5[12..13]
+    -> BB6
+    -> BB9
+BB6[14..15]
+    -> BB7
+    -> BB9
+BB7[16..18]
+    -> BB8
+    -> BB9
+BB8[19..19]
+    -> BB9
+BB9[-1..-2]
+Instructions:
+BB0
+BB1
+0   v3 = new <JavaScriptLoader,LArray>@0     App.js [3006->3368] (line 85) [3=[arguments]]
+3   v8 = global:global console               App.js [3026->3033] (line 86) [8=[$$destructure$rcvr46]]
+4   check v8                                 App.js [3026->3033] (line 86) [8=[$$destructure$rcvr46]]
+BB2
+7   v13 = lexical:form@LApp.js/App           App.js [3059->3063] (line 86)
+8   check v13                                App.js [3059->3063] (line 86)
+BB3
+9   v10 = dispatch v9:#log@9 v8,v11:#Submitting form: ,v13 exception:v14App.js [3026->3064] (line 86) [9=[$$destructure$elt46]8=[$$destructure$rcvr46]]
+BB4
+10   v17 = lexical:setLoading@LApp.js/App    App.js [3072->3082] (line 87)
+11   check v17                               App.js [3072->3082] (line 87)
+BB5
+12   v19 = global:global __WALA__int3rnal__globalApp.js [3072->3088] (line 87)
+13   v15 = invoke v17@13 v19,v20:#true exception:v21App.js [3072->3088] (line 87)
+BB6
+14   v24 = global:global Promise             App.js [3107->3114] (line 88)
+15   check v24                               App.js [3107->3114] (line 88)
+BB7
+16   v28 = global:global Function            App.js [3103->3361] (line 88)
+17   v25 = construct v28@17 v27:#LApp.js/App/App.js@3006/App.js@3115 exception:v26App.js [3103->3361] (line 88)
+18   v22 = construct v24@18 v25 exception:v32App.js [3103->3361] (line 88)
+BB8
+19   return v22                              App.js [3096->3362] (line 88)
+BB9
+
