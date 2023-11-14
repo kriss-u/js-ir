@@ -9,13 +9,13 @@ import com.ibm.wala.classLoader.IMethod;
 import com.ibm.wala.ipa.callgraph.impl.Everywhere;
 import com.ibm.wala.ipa.cha.ClassHierarchyException;
 import com.ibm.wala.ipa.cha.IClassHierarchy;
-import com.ibm.wala.ssa.IR;
-import com.ibm.wala.ssa.IRFactory;
-import com.ibm.wala.ssa.SSAInstruction;
-import com.ibm.wala.ssa.SSAOptions;
+import com.ibm.wala.ssa.*;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class Main {
     // Run the application using ./gradlew run -q --args='filename' > output.ir
@@ -38,11 +38,31 @@ public class Main {
                 IMethod m = klass.getMethod(AstMethodReference.fnSelector);
                 if (m != null) {
                     IR ir = factory.makeIR(m, Everywhere.EVERYWHERE, new SSAOptions());
-//                    System.out.println(ir);
                     SSAInstruction[] instructions = ir.getInstructions();
-                    for (SSAInstruction instruction : instructions) {
-                        System.out.println(instruction);
+                    // May modify set (of SSA instructions vn)
+                    Set<Integer> modVN = new LinkedHashSet<>();
+                    // May modify set with  names of JS variables
+                    Set<String> modJSVars = new LinkedHashSet<>();
+                    // Run loop from the end of the method to the beginning
+                    for (int i = instructions.length - 1; i >= 0; i--) {
+                        SSAInstruction currentInstruction = instructions[i];
+                        if (currentInstruction != null) {
+                            // hasDef() return true if the instruction has vn (value number)
+                            if (currentInstruction.hasDef()) {
+                                // TODO: check if the instruction is a local var or a field as mentioned in the algorithm
+                                // Add the vn to the set
+                                modVN.add(currentInstruction.getDef());
+                                String[] localNames = ir.getLocalNames(currentInstruction.iIndex(), currentInstruction.getDef());
+                                // Add the name of the JS variable(s) to the set if it exists
+                                if (localNames.length > 0) {
+                                    modJSVars.addAll(Arrays.asList(localNames));
+                                }
+                            }
+                        }
                     }
+                    System.out.println("Method: " + m);
+                    System.out.println("Mod set: " + modVN);
+                    System.out.println("Mod names: " + modJSVars);
                 }
             }
         }
