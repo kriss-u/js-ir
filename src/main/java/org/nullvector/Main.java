@@ -59,6 +59,7 @@ public class Main {
                             // hasDef() return true if the instruction has vn (value number)
                             if (currentInstruction.hasDef()) {
                                 // Add the vn to the set
+                                // FIXME: This might be wrong as getDef returns a value for a declaration
                                 modVN.add(currentInstruction.getDef());
                                 String[] localNames = ir.getLocalNames(currentInstruction.iIndex(), currentInstruction.getDef());
                                 // Add the name of the JS variable(s) to the set if it exists

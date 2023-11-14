@@ -7,13 +7,35 @@
 //
 // }
 
-var obj = {
-    a: "john",
-    b: "doe",
-    c: {
-        "a": "mary",
-        "b": "doe"
-    }
+// var obj = {
+//     a: "john",
+//     b: "doe",
+//     c: {
+//         a: "mary",
+//         b: "doe"
+//     }
+// }
+//
+// obj.a = "jane";
+
+
+var state = {
+    name: ""
 }
 
-obj.a = "jane";
+function setState(newState) {
+    state = Object.assign({}, state, newState);
+}
+
+function onClick() {
+    var profile = {
+        name: "john",
+        age: 20
+    }
+    var nameOfUser = profile.name;
+    setState({name: nameOfUser});
+}
+
+
+
+
