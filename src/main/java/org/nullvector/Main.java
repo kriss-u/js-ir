@@ -2,6 +2,7 @@ package org.nullvector;
 
 import com.ibm.wala.cast.ir.ssa.AstIRFactory;
 import com.ibm.wala.cast.js.ipa.callgraph.JSCallGraphUtil;
+import com.ibm.wala.cast.js.ssa.JavaScriptPropertyWrite;
 import com.ibm.wala.cast.js.translator.CAstRhinoTranslatorFactory;
 import com.ibm.wala.cast.types.AstMethodReference;
 import com.ibm.wala.classLoader.IClass;
@@ -38,6 +39,7 @@ public class Main {
                 IMethod m = klass.getMethod(AstMethodReference.fnSelector);
                 if (m != null) {
                     IR ir = factory.makeIR(m, Everywhere.EVERYWHERE, new SSAOptions());
+                    System.out.println(ir);
                     SSAInstruction[] instructions = ir.getInstructions();
                     // May modify set (of SSA instructions vn)
                     Set<Integer> modVN = new LinkedHashSet<>();
@@ -47,9 +49,15 @@ public class Main {
                     for (int i = instructions.length - 1; i >= 0; i--) {
                         SSAInstruction currentInstruction = instructions[i];
                         if (currentInstruction != null) {
+//                            System.out.println(currentInstruction.iIndex() + ": " + currentInstruction + ": " + currentInstruction.getClass());
+                            // Property write instruction for object instantiations
+                            // TODO: check if the instruction is a local var or a field as mentioned in the algorithm
+                            if (currentInstruction instanceof JavaScriptPropertyWrite) {
+                                JavaScriptPropertyWrite propertyWrite = (JavaScriptPropertyWrite) currentInstruction;
+                                // do something with propertyWrite.getObjectRef() and propertyWrite.getMemberRef()
+                            }
                             // hasDef() return true if the instruction has vn (value number)
                             if (currentInstruction.hasDef()) {
-                                // TODO: check if the instruction is a local var or a field as mentioned in the algorithm
                                 // Add the vn to the set
                                 modVN.add(currentInstruction.getDef());
                                 String[] localNames = ir.getLocalNames(currentInstruction.iIndex(), currentInstruction.getDef());
