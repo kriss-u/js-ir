@@ -36,6 +36,5 @@ function onClick() {
     setState({name: nameOfUser});
 }
 
-
-
+onClick();
 

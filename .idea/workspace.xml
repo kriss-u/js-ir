@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44c0ea5-088b-4b0b-b359-6206687a488e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/entry-live.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-fn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nullvector/EntryLiveSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/may-modify.js" beforeDir="false" afterPath="$PROJECT_DIR$/may-modify.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nullvector/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nullvector/Main.java" afterDir="false" />
     </list>
@@ -22,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,22 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kriss/nepcodex/js-ir&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/kriss/nepcodex/js-ir",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -108,7 +117,15 @@
       <workItem from="1699534531057" duration="4936000" />
       <workItem from="1699686175665" duration="2609000" />
       <workItem from="1699929943408" duration="66000" />
-      <workItem from="1699930024546" duration="10494000" />
+      <workItem from="1699930024546" duration="11678000" />
+      <workItem from="1700135689490" duration="6557000" />
+      <workItem from="1700231191724" duration="1824000" />
+      <workItem from="1700295341330" duration="1351000" />
+      <workItem from="1700491070444" duration="87000" />
+      <workItem from="1700491168137" duration="6082000" />
+      <workItem from="1700578177942" duration="8639000" />
+      <workItem from="1700750577642" duration="4756000" />
+      <workItem from="1700842259389" duration="45348000" />
     </task>
     <servers />
   </component>
