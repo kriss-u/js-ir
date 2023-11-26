@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44c0ea5-088b-4b0b-b359-6206687a488e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/entry-live.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-fn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nullvector/EntryLiveSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/may-modify.js" beforeDir="false" afterPath="$PROJECT_DIR$/may-modify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-fn.js" beforeDir="false" afterPath="$PROJECT_DIR$/simple-fn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nullvector/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nullvector/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +121,7 @@
       <workItem from="1700491168137" duration="6082000" />
       <workItem from="1700578177942" duration="8639000" />
       <workItem from="1700750577642" duration="4756000" />
-      <workItem from="1700842259389" duration="45348000" />
+      <workItem from="1700842259389" duration="46758000" />
     </task>
     <servers />
   </component>

@@ -5,8 +5,12 @@ var bMultiplier = 2;
 var result = 100;
 
 function onClick() {
-    a = b;
-    b = 20 + a;
-    var result = (a * aMultiplier) + (b * bMultiplier);
+    var c = 10;
+    var d = 20;
+    a = c;
+    b = d;
+    a = a * aMultiplier;
+    b = b * bMultiplier;
+    result = a + b;
 }
 
